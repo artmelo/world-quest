@@ -1,0 +1,5538 @@
+[
+  {
+    "id": "af",
+    "iso3": "AFG",
+    "numeric": "004",
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "latlng": [
+      33,
+      65
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Asia"
+      ],
+      [
+        "💬",
+        "Dari is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Afghanistan is in Southern Asia. It shares a land border with Iran, Pakistan, Turkmenistan and other neighbours."
+  },
+  {
+    "id": "al",
+    "iso3": "ALB",
+    "numeric": "008",
+    "name": "Albania",
+    "capital": "Tirana",
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "latlng": [
+      41,
+      20
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southeast Europe"
+      ],
+      [
+        "💬",
+        "Albanian is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Albania is in Southeast Europe. It shares a land border with Montenegro, Greece, North Macedonia and other neighbours."
+  },
+  {
+    "id": "dz",
+    "iso3": "DZA",
+    "numeric": "012",
+    "name": "Algeria",
+    "capital": "Algiers",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "latlng": [
+      28,
+      3
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Africa"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Algeria is in Northern Africa. It shares a land border with Tunisia, Libya, Niger and other neighbours."
+  },
+  {
+    "id": "ad",
+    "iso3": "AND",
+    "numeric": "020",
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "latlng": [
+      42.5,
+      1.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Europe"
+      ],
+      [
+        "💬",
+        "Catalan is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Andorra is in Southern Europe. It shares a land border with France, Spain."
+  },
+  {
+    "id": "ao",
+    "iso3": "AGO",
+    "numeric": "024",
+    "name": "Angola",
+    "capital": "Luanda",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "latlng": [
+      -12.5,
+      18.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Middle Africa"
+      ],
+      [
+        "💬",
+        "Portuguese is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Angola is in Middle Africa. It shares a land border with Congo, DR Congo, Zambia and other neighbours."
+  },
+  {
+    "id": "ag",
+    "iso3": "ATG",
+    "numeric": "028",
+    "name": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      17.05,
+      -61.8
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Antigua and Barbuda is in Caribbean. It has no land borders with other countries."
+  },
+  {
+    "id": "ar",
+    "iso3": "ARG",
+    "numeric": "032",
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "region": "South America",
+    "subregion": "South America",
+    "latlng": [
+      -34,
+      -64
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South America"
+      ],
+      [
+        "💬",
+        "Guaraní is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Argentina is in South America. It shares a land border with Bolivia, Brazil, Chile and other neighbours."
+  },
+  {
+    "id": "am",
+    "iso3": "ARM",
+    "numeric": "051",
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      40,
+      45
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Armenian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Armenia is in Western Asia. It shares a land border with Azerbaijan, Georgia, Iran and other neighbours."
+  },
+  {
+    "id": "au",
+    "iso3": "AUS",
+    "numeric": "036",
+    "name": "Australia",
+    "capital": "Canberra",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "latlng": [
+      -27,
+      133
+    ],
+    "clues": [
+      [
+        "🦘",
+        "Kangaroos"
+      ],
+      [
+        "🪸",
+        "Great Barrier Reef"
+      ],
+      [
+        "🎭",
+        "Sydney Opera House"
+      ]
+    ],
+    "fact": "Canberra is the capital, even though Sydney is the largest city."
+  },
+  {
+    "id": "at",
+    "iso3": "AUT",
+    "numeric": "040",
+    "name": "Austria",
+    "capital": "Vienna",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "latlng": [
+      47.33333333,
+      13.33333333
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central Europe"
+      ],
+      [
+        "💬",
+        "German is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Austria is in Central Europe. It shares a land border with Czechia, Germany, Hungary and other neighbours."
+  },
+  {
+    "id": "az",
+    "iso3": "AZE",
+    "numeric": "031",
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      40.5,
+      47.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Azerbaijani is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Azerbaijan is in Western Asia. It shares a land border with Armenia, Georgia, Iran and other neighbours."
+  },
+  {
+    "id": "bs",
+    "iso3": "BHS",
+    "numeric": "044",
+    "name": "Bahamas",
+    "capital": "Nassau",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      24.25,
+      -76
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Bahamas is in Caribbean. It has no land borders with other countries."
+  },
+  {
+    "id": "bh",
+    "iso3": "BHR",
+    "numeric": "048",
+    "name": "Bahrain",
+    "capital": "Manama",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      26,
+      50.55
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Bahrain is in Western Asia. It has no land borders with other countries."
+  },
+  {
+    "id": "bd",
+    "iso3": "BGD",
+    "numeric": "050",
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "latlng": [
+      24,
+      90
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Asia"
+      ],
+      [
+        "💬",
+        "Bengali is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Bangladesh is in Southern Asia. It shares a land border with Myanmar, India."
+  },
+  {
+    "id": "bb",
+    "iso3": "BRB",
+    "numeric": "052",
+    "name": "Barbados",
+    "capital": "Bridgetown",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      13.16666666,
+      -59.53333333
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Barbados is in Caribbean. It has no land borders with other countries."
+  },
+  {
+    "id": "by",
+    "iso3": "BLR",
+    "numeric": "112",
+    "name": "Belarus",
+    "capital": "Minsk",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "latlng": [
+      53,
+      28
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Europe"
+      ],
+      [
+        "💬",
+        "Belarusian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Belarus is in Eastern Europe. It shares a land border with Latvia, Lithuania, Poland and other neighbours."
+  },
+  {
+    "id": "be",
+    "iso3": "BEL",
+    "numeric": "056",
+    "name": "Belgium",
+    "capital": "Brussels",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "latlng": [
+      50.83333333,
+      4
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Europe"
+      ],
+      [
+        "💬",
+        "German is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Belgium is in Western Europe. It shares a land border with France, Germany, Luxembourg and other neighbours."
+  },
+  {
+    "id": "bz",
+    "iso3": "BLZ",
+    "numeric": "084",
+    "name": "Belize",
+    "capital": "Belmopan",
+    "region": "North America",
+    "subregion": "Central America",
+    "latlng": [
+      17.25,
+      -88.75
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central America"
+      ],
+      [
+        "💬",
+        "Belizean Creole is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Belize is in Central America. It shares a land border with Guatemala, Mexico."
+  },
+  {
+    "id": "bj",
+    "iso3": "BEN",
+    "numeric": "204",
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      9.5,
+      2.25
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Benin is in Western Africa. It shares a land border with Burkina Faso, Niger, Nigeria and other neighbours."
+  },
+  {
+    "id": "bt",
+    "iso3": "BTN",
+    "numeric": "064",
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "latlng": [
+      27.5,
+      90.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Asia"
+      ],
+      [
+        "💬",
+        "Dzongkha is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Bhutan is in Southern Asia. It shares a land border with China, India."
+  },
+  {
+    "id": "bo",
+    "iso3": "BOL",
+    "numeric": "068",
+    "name": "Bolivia",
+    "capital": "Sucre",
+    "region": "South America",
+    "subregion": "South America",
+    "latlng": [
+      -17,
+      -65
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South America"
+      ],
+      [
+        "💬",
+        "Aymara is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Bolivia is in South America. It shares a land border with Argentina, Brazil, Chile and other neighbours.",
+    "capitalNote": "Sucre is the constitutional capital; La Paz is the seat of government.",
+    "capitalPrompt": "What is Bolivia’s constitutional capital?"
+  },
+  {
+    "id": "ba",
+    "iso3": "BIH",
+    "numeric": "070",
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "latlng": [
+      44,
+      18
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southeast Europe"
+      ],
+      [
+        "💬",
+        "Bosnian is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Bosnia and Herzegovina is in Southeast Europe. It shares a land border with Croatia, Montenegro, Serbia."
+  },
+  {
+    "id": "bw",
+    "iso3": "BWA",
+    "numeric": "072",
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "latlng": [
+      -22,
+      24
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Botswana is in Southern Africa. It shares a land border with Namibia, South Africa, Zambia and other neighbours."
+  },
+  {
+    "id": "br",
+    "iso3": "BRA",
+    "numeric": "076",
+    "name": "Brazil",
+    "capital": "Brasília",
+    "region": "South America",
+    "subregion": "South America",
+    "latlng": [
+      -10,
+      -55
+    ],
+    "clues": [
+      [
+        "🌳",
+        "Amazon rainforest"
+      ],
+      [
+        "⚽",
+        "Football"
+      ],
+      [
+        "🎉",
+        "Rio Carnival"
+      ]
+    ],
+    "fact": "Brasília became the capital in 1960, taking over from Rio de Janeiro."
+  },
+  {
+    "id": "bn",
+    "iso3": "BRN",
+    "numeric": "096",
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "latlng": [
+      4.5,
+      114.66666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South-Eastern Asia"
+      ],
+      [
+        "💬",
+        "Malay is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Brunei is in South-Eastern Asia. It shares a land border with Malaysia."
+  },
+  {
+    "id": "bg",
+    "iso3": "BGR",
+    "numeric": "100",
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "latlng": [
+      43,
+      25
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southeast Europe"
+      ],
+      [
+        "💬",
+        "Bulgarian is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Bulgaria is in Southeast Europe. It shares a land border with Greece, North Macedonia, Romania and other neighbours."
+  },
+  {
+    "id": "bf",
+    "iso3": "BFA",
+    "numeric": "854",
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      13,
+      -2
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Burkina Faso is in Western Africa. It shares a land border with Benin, Ivory Coast, Ghana and other neighbours."
+  },
+  {
+    "id": "bi",
+    "iso3": "BDI",
+    "numeric": "108",
+    "name": "Burundi",
+    "capital": "Gitega",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      -3.5,
+      30
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Burundi is in Eastern Africa. It shares a land border with DR Congo, Rwanda, Tanzania."
+  },
+  {
+    "id": "cv",
+    "iso3": "CPV",
+    "numeric": "132",
+    "name": "Cabo Verde",
+    "capital": "Praia",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      16,
+      -24
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "Portuguese is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Cabo Verde is in Western Africa. It has no land borders with other countries."
+  },
+  {
+    "id": "kh",
+    "iso3": "KHM",
+    "numeric": "116",
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "latlng": [
+      13,
+      105
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South-Eastern Asia"
+      ],
+      [
+        "💬",
+        "Khmer is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Cambodia is in South-Eastern Asia. It shares a land border with Laos, Thailand, Vietnam."
+  },
+  {
+    "id": "cm",
+    "iso3": "CMR",
+    "numeric": "120",
+    "name": "Cameroon",
+    "capital": "Yaoundé",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "latlng": [
+      6,
+      12
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Middle Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Cameroon is in Middle Africa. It shares a land border with Central African Republic, Chad, Congo and other neighbours."
+  },
+  {
+    "id": "ca",
+    "iso3": "CAN",
+    "numeric": "124",
+    "name": "Canada",
+    "capital": "Ottawa",
+    "region": "North America",
+    "subregion": "North America",
+    "latlng": [
+      60,
+      -95
+    ],
+    "clues": [
+      [
+        "🍁",
+        "Maple leaves"
+      ],
+      [
+        "🦫",
+        "Beavers"
+      ],
+      [
+        "💦",
+        "Niagara Falls"
+      ]
+    ],
+    "fact": "Canada shares Niagara Falls with the United States."
+  },
+  {
+    "id": "cf",
+    "iso3": "CAF",
+    "numeric": "140",
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "latlng": [
+      7,
+      21
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Middle Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Central African Republic is in Middle Africa. It shares a land border with Cameroon, Chad, DR Congo and other neighbours."
+  },
+  {
+    "id": "td",
+    "iso3": "TCD",
+    "numeric": "148",
+    "name": "Chad",
+    "capital": "N'Djamena",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "latlng": [
+      15,
+      19
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Middle Africa"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Chad is in Middle Africa. It shares a land border with Cameroon, Central African Republic, Libya and other neighbours."
+  },
+  {
+    "id": "cl",
+    "iso3": "CHL",
+    "numeric": "152",
+    "name": "Chile",
+    "capital": "Santiago",
+    "region": "South America",
+    "subregion": "South America",
+    "latlng": [
+      -30,
+      -71
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South America"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Chile is in South America. It shares a land border with Argentina, Bolivia, Peru."
+  },
+  {
+    "id": "cn",
+    "iso3": "CHN",
+    "numeric": "156",
+    "name": "China",
+    "capital": "Beijing",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "latlng": [
+      35,
+      105
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Asia"
+      ],
+      [
+        "💬",
+        "Chinese is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "China is in Eastern Asia. It shares a land border with Afghanistan, Bhutan, Myanmar and other neighbours."
+  },
+  {
+    "id": "co",
+    "iso3": "COL",
+    "numeric": "170",
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "region": "South America",
+    "subregion": "South America",
+    "latlng": [
+      4,
+      -72
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South America"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Colombia is in South America. It shares a land border with Brazil, Ecuador, Panama and other neighbours."
+  },
+  {
+    "id": "km",
+    "iso3": "COM",
+    "numeric": "174",
+    "name": "Comoros",
+    "capital": "Moroni",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      -12.16666666,
+      44.25
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Comoros is in Eastern Africa. It has no land borders with other countries."
+  },
+  {
+    "id": "cr",
+    "iso3": "CRI",
+    "numeric": "188",
+    "name": "Costa Rica",
+    "capital": "San José",
+    "region": "North America",
+    "subregion": "Central America",
+    "latlng": [
+      10,
+      -84
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central America"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Costa Rica is in Central America. It shares a land border with Nicaragua, Panama."
+  },
+  {
+    "id": "ci",
+    "iso3": "CIV",
+    "numeric": "384",
+    "name": "Côte d’Ivoire",
+    "capital": "Yamoussoukro",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      8,
+      -5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Côte d’Ivoire is in Western Africa. It shares a land border with Burkina Faso, Ghana, Guinea and other neighbours."
+  },
+  {
+    "id": "hr",
+    "iso3": "HRV",
+    "numeric": "191",
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "latlng": [
+      45.16666666,
+      15.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southeast Europe"
+      ],
+      [
+        "💬",
+        "Croatian is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Croatia is in Southeast Europe. It shares a land border with Bosnia and Herzegovina, Hungary, Montenegro and other neighbours."
+  },
+  {
+    "id": "cu",
+    "iso3": "CUB",
+    "numeric": "192",
+    "name": "Cuba",
+    "capital": "Havana",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      21.5,
+      -80
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Cuba is in Caribbean. It has no land borders with other countries."
+  },
+  {
+    "id": "cy",
+    "iso3": "CYP",
+    "numeric": "196",
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "latlng": [
+      35,
+      33
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Europe"
+      ],
+      [
+        "💬",
+        "Greek is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Cyprus is in Southern Europe. It has no land borders with other countries."
+  },
+  {
+    "id": "cz",
+    "iso3": "CZE",
+    "numeric": "203",
+    "name": "Czechia",
+    "capital": "Prague",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "latlng": [
+      49.75,
+      15.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central Europe"
+      ],
+      [
+        "💬",
+        "Czech is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Czechia is in Central Europe. It shares a land border with Austria, Germany, Poland and other neighbours."
+  },
+  {
+    "id": "cd",
+    "iso3": "COD",
+    "numeric": "180",
+    "name": "Democratic Republic of the Congo",
+    "capital": "Kinshasa",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "latlng": [
+      0,
+      25
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Middle Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Democratic Republic of the Congo is in Middle Africa. It shares a land border with Angola, Burundi, Central African Republic and other neighbours."
+  },
+  {
+    "id": "dk",
+    "iso3": "DNK",
+    "numeric": "208",
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "latlng": [
+      56,
+      10
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Europe"
+      ],
+      [
+        "💬",
+        "Danish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Denmark is in Northern Europe. It shares a land border with Germany."
+  },
+  {
+    "id": "dj",
+    "iso3": "DJI",
+    "numeric": "262",
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      11.5,
+      43
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Djibouti is in Eastern Africa. It shares a land border with Eritrea, Ethiopia, Somalia."
+  },
+  {
+    "id": "dm",
+    "iso3": "DMA",
+    "numeric": "212",
+    "name": "Dominica",
+    "capital": "Roseau",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      15.41666666,
+      -61.33333333
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Dominica is in Caribbean. It has no land borders with other countries."
+  },
+  {
+    "id": "do",
+    "iso3": "DOM",
+    "numeric": "214",
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      19,
+      -70.66666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Dominican Republic is in Caribbean. It shares a land border with Haiti."
+  },
+  {
+    "id": "ec",
+    "iso3": "ECU",
+    "numeric": "218",
+    "name": "Ecuador",
+    "capital": "Quito",
+    "region": "South America",
+    "subregion": "South America",
+    "latlng": [
+      -2,
+      -77.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South America"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Ecuador is in South America. It shares a land border with Colombia, Peru."
+  },
+  {
+    "id": "eg",
+    "iso3": "EGY",
+    "numeric": "818",
+    "name": "Egypt",
+    "capital": "Cairo",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "latlng": [
+      27,
+      30
+    ],
+    "clues": [
+      [
+        "🔺",
+        "Pyramids of Giza"
+      ],
+      [
+        "🐪",
+        "Camels"
+      ],
+      [
+        "🏞️",
+        "The Nile"
+      ]
+    ],
+    "fact": "The pyramids at Giza stand near Cairo."
+  },
+  {
+    "id": "sv",
+    "iso3": "SLV",
+    "numeric": "222",
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "region": "North America",
+    "subregion": "Central America",
+    "latlng": [
+      13.83333333,
+      -88.91666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central America"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "El Salvador is in Central America. It shares a land border with Guatemala, Honduras."
+  },
+  {
+    "id": "gq",
+    "iso3": "GNQ",
+    "numeric": "226",
+    "name": "Equatorial Guinea",
+    "capital": "Ciudad de la Paz",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "latlng": [
+      2,
+      10
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Middle Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Equatorial Guinea is in Middle Africa. It shares a land border with Cameroon, Gabon.",
+    "capitalNote": "Ciudad de la Paz became the capital in January 2026, replacing Malabo."
+  },
+  {
+    "id": "er",
+    "iso3": "ERI",
+    "numeric": "232",
+    "name": "Eritrea",
+    "capital": "Asmara",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      15,
+      39
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Eritrea is in Eastern Africa. It shares a land border with Djibouti, Ethiopia, Sudan."
+  },
+  {
+    "id": "ee",
+    "iso3": "EST",
+    "numeric": "233",
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "latlng": [
+      59,
+      26
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Europe"
+      ],
+      [
+        "💬",
+        "Estonian is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Estonia is in Northern Europe. It shares a land border with Latvia, Russia."
+  },
+  {
+    "id": "sz",
+    "iso3": "SWZ",
+    "numeric": "748",
+    "name": "Eswatini",
+    "capital": "Mbabane",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "latlng": [
+      -26.5,
+      31.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Eswatini is in Southern Africa. It shares a land border with Mozambique, South Africa.",
+    "capitalNote": "Mbabane is the administrative capital; Lobamba is the royal and legislative capital.",
+    "capitalPrompt": "What is Eswatini’s administrative capital?"
+  },
+  {
+    "id": "et",
+    "iso3": "ETH",
+    "numeric": "231",
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      8,
+      38
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "Amharic is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Ethiopia is in Eastern Africa. It shares a land border with Djibouti, Eritrea, Kenya and other neighbours."
+  },
+  {
+    "id": "fj",
+    "iso3": "FJI",
+    "numeric": "242",
+    "name": "Fiji",
+    "capital": "Suva",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "latlng": [
+      -18,
+      175
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Melanesia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Fiji is in Melanesia. It has no land borders with other countries."
+  },
+  {
+    "id": "fi",
+    "iso3": "FIN",
+    "numeric": "246",
+    "name": "Finland",
+    "capital": "Helsinki",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "latlng": [
+      64,
+      26
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Europe"
+      ],
+      [
+        "💬",
+        "Finnish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Finland is in Northern Europe. It shares a land border with Norway, Sweden, Russia."
+  },
+  {
+    "id": "fr",
+    "iso3": "FRA",
+    "numeric": "250",
+    "name": "France",
+    "capital": "Paris",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "latlng": [
+      46,
+      2
+    ],
+    "clues": [
+      [
+        "🗼",
+        "Eiffel Tower"
+      ],
+      [
+        "🥐",
+        "Croissants"
+      ],
+      [
+        "🎨",
+        "The Louvre"
+      ]
+    ],
+    "fact": "The Louvre museum in Paris is home to the Mona Lisa."
+  },
+  {
+    "id": "ga",
+    "iso3": "GAB",
+    "numeric": "266",
+    "name": "Gabon",
+    "capital": "Libreville",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "latlng": [
+      -1,
+      11.75
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Middle Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Gabon is in Middle Africa. It shares a land border with Cameroon, Congo, Equatorial Guinea."
+  },
+  {
+    "id": "gm",
+    "iso3": "GMB",
+    "numeric": "270",
+    "name": "Gambia",
+    "capital": "Banjul",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      13.46666666,
+      -16.56666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Gambia is in Western Africa. It shares a land border with Senegal."
+  },
+  {
+    "id": "ge",
+    "iso3": "GEO",
+    "numeric": "268",
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      42,
+      43.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Georgian is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Georgia is in Western Asia. It shares a land border with Armenia, Azerbaijan, Russia and other neighbours."
+  },
+  {
+    "id": "de",
+    "iso3": "DEU",
+    "numeric": "276",
+    "name": "Germany",
+    "capital": "Berlin",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "latlng": [
+      51,
+      9
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Europe"
+      ],
+      [
+        "💬",
+        "German is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Germany is in Western Europe. It shares a land border with Austria, Belgium, Czechia and other neighbours."
+  },
+  {
+    "id": "gh",
+    "iso3": "GHA",
+    "numeric": "288",
+    "name": "Ghana",
+    "capital": "Accra",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      8,
+      -2
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Ghana is in Western Africa. It shares a land border with Burkina Faso, Ivory Coast, Togo."
+  },
+  {
+    "id": "gr",
+    "iso3": "GRC",
+    "numeric": "300",
+    "name": "Greece",
+    "capital": "Athens",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "latlng": [
+      39,
+      22
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Europe"
+      ],
+      [
+        "💬",
+        "Greek is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Greece is in Southern Europe. It shares a land border with Albania, Bulgaria, Türkiye and other neighbours."
+  },
+  {
+    "id": "gd",
+    "iso3": "GRD",
+    "numeric": "308",
+    "name": "Grenada",
+    "capital": "St. George's",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      12.11666666,
+      -61.66666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Grenada is in Caribbean. It has no land borders with other countries."
+  },
+  {
+    "id": "gt",
+    "iso3": "GTM",
+    "numeric": "320",
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "region": "North America",
+    "subregion": "Central America",
+    "latlng": [
+      15.5,
+      -90.25
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central America"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Guatemala is in Central America. It shares a land border with Belize, El Salvador, Honduras and other neighbours."
+  },
+  {
+    "id": "gn",
+    "iso3": "GIN",
+    "numeric": "324",
+    "name": "Guinea",
+    "capital": "Conakry",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      11,
+      -10
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Guinea is in Western Africa. It shares a land border with Ivory Coast, Guinea-Bissau, Liberia and other neighbours."
+  },
+  {
+    "id": "gw",
+    "iso3": "GNB",
+    "numeric": "624",
+    "name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      12,
+      -15
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "Portuguese is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Guinea-Bissau is in Western Africa. It shares a land border with Guinea, Senegal."
+  },
+  {
+    "id": "gy",
+    "iso3": "GUY",
+    "numeric": "328",
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "region": "South America",
+    "subregion": "South America",
+    "latlng": [
+      5,
+      -59
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South America"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Guyana is in South America. It shares a land border with Brazil, Suriname, Venezuela."
+  },
+  {
+    "id": "ht",
+    "iso3": "HTI",
+    "numeric": "332",
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      19,
+      -72.41666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Haiti is in Caribbean. It shares a land border with Dominican Republic."
+  },
+  {
+    "id": "hn",
+    "iso3": "HND",
+    "numeric": "340",
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "region": "North America",
+    "subregion": "Central America",
+    "latlng": [
+      15,
+      -86.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central America"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Honduras is in Central America. It shares a land border with Guatemala, El Salvador, Nicaragua."
+  },
+  {
+    "id": "hu",
+    "iso3": "HUN",
+    "numeric": "348",
+    "name": "Hungary",
+    "capital": "Budapest",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "latlng": [
+      47,
+      20
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central Europe"
+      ],
+      [
+        "💬",
+        "Hungarian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Hungary is in Central Europe. It shares a land border with Austria, Croatia, Romania and other neighbours."
+  },
+  {
+    "id": "is",
+    "iso3": "ISL",
+    "numeric": "352",
+    "name": "Iceland",
+    "capital": "Reykjavik",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "latlng": [
+      65,
+      -18
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Europe"
+      ],
+      [
+        "💬",
+        "Icelandic is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Iceland is in Northern Europe. It has no land borders with other countries."
+  },
+  {
+    "id": "in",
+    "iso3": "IND",
+    "numeric": "356",
+    "name": "India",
+    "capital": "New Delhi",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "latlng": [
+      20,
+      77
+    ],
+    "clues": [
+      [
+        "🕌",
+        "Taj Mahal"
+      ],
+      [
+        "🐅",
+        "Bengal tigers"
+      ],
+      [
+        "🪔",
+        "Diwali lamps"
+      ]
+    ],
+    "fact": "The Taj Mahal is in Agra; India’s capital is New Delhi."
+  },
+  {
+    "id": "id",
+    "iso3": "IDN",
+    "numeric": "360",
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "latlng": [
+      -5,
+      120
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South-Eastern Asia"
+      ],
+      [
+        "💬",
+        "Indonesian is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Indonesia is in South-Eastern Asia. It shares a land border with Timor-Leste, Malaysia, Papua New Guinea.",
+    "capitalNote": "Jakarta is used here during the transition to Nusantara, whose political-capital target is 2028."
+  },
+  {
+    "id": "ir",
+    "iso3": "IRN",
+    "numeric": "364",
+    "name": "Iran",
+    "capital": "Tehran",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "latlng": [
+      32,
+      53
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Asia"
+      ],
+      [
+        "💬",
+        "Persian (Farsi) is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Iran is in Southern Asia. It shares a land border with Afghanistan, Armenia, Azerbaijan and other neighbours."
+  },
+  {
+    "id": "iq",
+    "iso3": "IRQ",
+    "numeric": "368",
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      33,
+      44
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Iraq is in Western Asia. It shares a land border with Iran, Jordan, Kuwait and other neighbours."
+  },
+  {
+    "id": "ie",
+    "iso3": "IRL",
+    "numeric": "372",
+    "name": "Ireland",
+    "capital": "Dublin",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "latlng": [
+      53,
+      -8
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Europe"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Ireland is in Northern Europe. It shares a land border with United Kingdom."
+  },
+  {
+    "id": "il",
+    "iso3": "ISR",
+    "numeric": "376",
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      31.47,
+      35.13
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Israel is in Western Asia. It shares a land border with Egypt, Jordan, Lebanon and other neighbours.",
+    "capitalNote": "Israel’s government is in Jerusalem, which it declares its capital. The city’s status is disputed.",
+    "capitalPrompt": "Which city is Israel’s seat of government?"
+  },
+  {
+    "id": "it",
+    "iso3": "ITA",
+    "numeric": "380",
+    "name": "Italy",
+    "capital": "Rome",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "latlng": [
+      42.83333333,
+      12.83333333
+    ],
+    "clues": [
+      [
+        "🏛️",
+        "The Colosseum"
+      ],
+      [
+        "🍕",
+        "Pizza"
+      ],
+      [
+        "🚣",
+        "Venice canals"
+      ]
+    ],
+    "fact": "Rome’s Colosseum is an ancient amphitheatre."
+  },
+  {
+    "id": "jm",
+    "iso3": "JAM",
+    "numeric": "388",
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      18.25,
+      -77.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Jamaica is in Caribbean. It has no land borders with other countries."
+  },
+  {
+    "id": "jp",
+    "iso3": "JPN",
+    "numeric": "392",
+    "name": "Japan",
+    "capital": "Tokyo",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "latlng": [
+      36,
+      138
+    ],
+    "clues": [
+      [
+        "🗻",
+        "Mount Fuji"
+      ],
+      [
+        "🌸",
+        "Cherry blossoms"
+      ],
+      [
+        "🍣",
+        "Sushi"
+      ]
+    ],
+    "fact": "Mount Fuji is a volcano and Japan’s tallest mountain."
+  },
+  {
+    "id": "jo",
+    "iso3": "JOR",
+    "numeric": "400",
+    "name": "Jordan",
+    "capital": "Amman",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      31,
+      36
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Jordan is in Western Asia. It shares a land border with Iraq, Israel, Palestine and other neighbours."
+  },
+  {
+    "id": "kz",
+    "iso3": "KAZ",
+    "numeric": "398",
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "latlng": [
+      48,
+      68
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central Asia"
+      ],
+      [
+        "💬",
+        "Kazakh is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Kazakhstan is in Central Asia. It shares a land border with China, Kyrgyzstan, Russia and other neighbours."
+  },
+  {
+    "id": "ke",
+    "iso3": "KEN",
+    "numeric": "404",
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      1,
+      38
+    ],
+    "clues": [
+      [
+        "🦁",
+        "Lions"
+      ],
+      [
+        "🦒",
+        "Giraffes"
+      ],
+      [
+        "🌾",
+        "Maasai Mara"
+      ]
+    ],
+    "fact": "The Maasai Mara is known for its wildlife and seasonal wildebeest migration."
+  },
+  {
+    "id": "ki",
+    "iso3": "KIR",
+    "numeric": "296",
+    "name": "Kiribati",
+    "capital": "South Tarawa",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "latlng": [
+      1.41666666,
+      173
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Micronesia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Kiribati is in Micronesia. It has no land borders with other countries."
+  },
+  {
+    "id": "xk",
+    "iso3": "UNK",
+    "numeric": "",
+    "name": "Kosovo",
+    "capital": "Pristina",
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "latlng": [
+      42.666667,
+      21.166667
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southeast Europe"
+      ],
+      [
+        "💬",
+        "Albanian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Kosovo is in Southeast Europe. It shares a land border with Albania, North Macedonia, Montenegro and other neighbours."
+  },
+  {
+    "id": "kw",
+    "iso3": "KWT",
+    "numeric": "414",
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      29.5,
+      45.75
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Kuwait is in Western Asia. It shares a land border with Iraq, Saudi Arabia."
+  },
+  {
+    "id": "kg",
+    "iso3": "KGZ",
+    "numeric": "417",
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "latlng": [
+      41,
+      75
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central Asia"
+      ],
+      [
+        "💬",
+        "Kyrgyz is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Kyrgyzstan is in Central Asia. It shares a land border with China, Kazakhstan, Tajikistan and other neighbours."
+  },
+  {
+    "id": "la",
+    "iso3": "LAO",
+    "numeric": "418",
+    "name": "Laos",
+    "capital": "Vientiane",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "latlng": [
+      18,
+      105
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South-Eastern Asia"
+      ],
+      [
+        "💬",
+        "Lao is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Laos is in South-Eastern Asia. It shares a land border with Myanmar, Cambodia, China and other neighbours."
+  },
+  {
+    "id": "lv",
+    "iso3": "LVA",
+    "numeric": "428",
+    "name": "Latvia",
+    "capital": "Riga",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "latlng": [
+      57,
+      25
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Europe"
+      ],
+      [
+        "💬",
+        "Latvian is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Latvia is in Northern Europe. It shares a land border with Belarus, Estonia, Lithuania and other neighbours."
+  },
+  {
+    "id": "lb",
+    "iso3": "LBN",
+    "numeric": "422",
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      33.83333333,
+      35.83333333
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Lebanon is in Western Asia. It shares a land border with Israel, Syria."
+  },
+  {
+    "id": "ls",
+    "iso3": "LSO",
+    "numeric": "426",
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "latlng": [
+      -29.5,
+      28.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Lesotho is in Southern Africa. It shares a land border with South Africa."
+  },
+  {
+    "id": "lr",
+    "iso3": "LBR",
+    "numeric": "430",
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      6.5,
+      -9.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Liberia is in Western Africa. It shares a land border with Guinea, Ivory Coast, Sierra Leone."
+  },
+  {
+    "id": "ly",
+    "iso3": "LBY",
+    "numeric": "434",
+    "name": "Libya",
+    "capital": "Tripoli",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "latlng": [
+      25,
+      17
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Africa"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Libya is in Northern Africa. It shares a land border with Algeria, Chad, Egypt and other neighbours."
+  },
+  {
+    "id": "li",
+    "iso3": "LIE",
+    "numeric": "438",
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "latlng": [
+      47.26666666,
+      9.53333333
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Europe"
+      ],
+      [
+        "💬",
+        "German is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Liechtenstein is in Western Europe. It shares a land border with Austria, Switzerland."
+  },
+  {
+    "id": "lt",
+    "iso3": "LTU",
+    "numeric": "440",
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "latlng": [
+      56,
+      24
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Europe"
+      ],
+      [
+        "💬",
+        "Lithuanian is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Lithuania is in Northern Europe. It shares a land border with Belarus, Latvia, Poland and other neighbours."
+  },
+  {
+    "id": "lu",
+    "iso3": "LUX",
+    "numeric": "442",
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "latlng": [
+      49.75,
+      6.16666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Europe"
+      ],
+      [
+        "💬",
+        "German is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Luxembourg is in Western Europe. It shares a land border with Belgium, France, Germany."
+  },
+  {
+    "id": "mg",
+    "iso3": "MDG",
+    "numeric": "450",
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      -20,
+      47
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Madagascar is in Eastern Africa. It has no land borders with other countries."
+  },
+  {
+    "id": "mw",
+    "iso3": "MWI",
+    "numeric": "454",
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      -13.5,
+      34
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Malawi is in Eastern Africa. It shares a land border with Mozambique, Tanzania, Zambia."
+  },
+  {
+    "id": "my",
+    "iso3": "MYS",
+    "numeric": "458",
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "latlng": [
+      2.5,
+      112.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South-Eastern Asia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Malaysia is in South-Eastern Asia. It shares a land border with Brunei, Indonesia, Thailand.",
+    "capitalNote": "Kuala Lumpur is the capital; Putrajaya is the federal administrative centre."
+  },
+  {
+    "id": "mv",
+    "iso3": "MDV",
+    "numeric": "462",
+    "name": "Maldives",
+    "capital": "Malé",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "latlng": [
+      3.25,
+      73
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Asia"
+      ],
+      [
+        "💬",
+        "Maldivian is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Maldives is in Southern Asia. It has no land borders with other countries."
+  },
+  {
+    "id": "ml",
+    "iso3": "MLI",
+    "numeric": "466",
+    "name": "Mali",
+    "capital": "Bamako",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      17,
+      -4
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Mali is in Western Africa. It shares a land border with Algeria, Burkina Faso, Guinea and other neighbours."
+  },
+  {
+    "id": "mt",
+    "iso3": "MLT",
+    "numeric": "470",
+    "name": "Malta",
+    "capital": "Valletta",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "latlng": [
+      35.83333333,
+      14.58333333
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Europe"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Malta is in Southern Europe. It has no land borders with other countries."
+  },
+  {
+    "id": "mh",
+    "iso3": "MHL",
+    "numeric": "584",
+    "name": "Marshall Islands",
+    "capital": "Majuro",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "latlng": [
+      9,
+      168
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Micronesia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Marshall Islands is in Micronesia. It has no land borders with other countries."
+  },
+  {
+    "id": "mr",
+    "iso3": "MRT",
+    "numeric": "478",
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      20,
+      -12
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Mauritania is in Western Africa. It shares a land border with Algeria, Mali, Senegal and other neighbours."
+  },
+  {
+    "id": "mu",
+    "iso3": "MUS",
+    "numeric": "480",
+    "name": "Mauritius",
+    "capital": "Port Louis",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      -20.28333333,
+      57.55
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Mauritius is in Eastern Africa. It has no land borders with other countries."
+  },
+  {
+    "id": "mx",
+    "iso3": "MEX",
+    "numeric": "484",
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "region": "North America",
+    "subregion": "North America",
+    "latlng": [
+      23,
+      -102
+    ],
+    "clues": [
+      [
+        "🌮",
+        "Tacos"
+      ],
+      [
+        "🦋",
+        "Monarch butterflies"
+      ],
+      [
+        "🏛️",
+        "Chichén Itzá"
+      ]
+    ],
+    "fact": "Millions of monarch butterflies spend winter in central Mexico."
+  },
+  {
+    "id": "fm",
+    "iso3": "FSM",
+    "numeric": "583",
+    "name": "Micronesia",
+    "capital": "Palikir",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "latlng": [
+      6.91666666,
+      158.25
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Micronesia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Micronesia is in Micronesia. It has no land borders with other countries."
+  },
+  {
+    "id": "md",
+    "iso3": "MDA",
+    "numeric": "498",
+    "name": "Moldova",
+    "capital": "Chișinău",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "latlng": [
+      47,
+      29
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Europe"
+      ],
+      [
+        "💬",
+        "Romanian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Moldova is in Eastern Europe. It shares a land border with Romania, Ukraine."
+  },
+  {
+    "id": "mc",
+    "iso3": "MCO",
+    "numeric": "492",
+    "name": "Monaco",
+    "capital": "Monaco",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "latlng": [
+      43.73333333,
+      7.4
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Europe"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Monaco is in Western Europe. It shares a land border with France."
+  },
+  {
+    "id": "mn",
+    "iso3": "MNG",
+    "numeric": "496",
+    "name": "Mongolia",
+    "capital": "Ulaanbaatar",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "latlng": [
+      46,
+      105
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Asia"
+      ],
+      [
+        "💬",
+        "Mongolian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Mongolia is in Eastern Asia. It shares a land border with China, Russia."
+  },
+  {
+    "id": "me",
+    "iso3": "MNE",
+    "numeric": "499",
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "latlng": [
+      42.5,
+      19.3
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southeast Europe"
+      ],
+      [
+        "💬",
+        "Montenegrin is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Montenegro is in Southeast Europe. It shares a land border with Albania, Bosnia and Herzegovina, Croatia and other neighbours."
+  },
+  {
+    "id": "ma",
+    "iso3": "MAR",
+    "numeric": "504",
+    "name": "Morocco",
+    "capital": "Rabat",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "latlng": [
+      32,
+      -5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Africa"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Morocco is in Northern Africa. It shares a land border with Algeria, Western Sahara, Spain."
+  },
+  {
+    "id": "mz",
+    "iso3": "MOZ",
+    "numeric": "508",
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      -18.25,
+      35
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "Portuguese is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Mozambique is in Eastern Africa. It shares a land border with Malawi, South Africa, Eswatini and other neighbours."
+  },
+  {
+    "id": "mm",
+    "iso3": "MMR",
+    "numeric": "104",
+    "name": "Myanmar",
+    "capital": "Naypyidaw",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "latlng": [
+      22,
+      98
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South-Eastern Asia"
+      ],
+      [
+        "💬",
+        "Burmese is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Myanmar is in South-Eastern Asia. It shares a land border with Bangladesh, China, India and other neighbours."
+  },
+  {
+    "id": "na",
+    "iso3": "NAM",
+    "numeric": "516",
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "latlng": [
+      -22,
+      17
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Africa"
+      ],
+      [
+        "💬",
+        "Afrikaans is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Namibia is in Southern Africa. It shares a land border with Angola, Botswana, South Africa and other neighbours."
+  },
+  {
+    "id": "nr",
+    "iso3": "NRU",
+    "numeric": "520",
+    "name": "Nauru",
+    "capital": "Yaren",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "latlng": [
+      -0.53333333,
+      166.91666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Micronesia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Nauru is in Micronesia. It has no land borders with other countries.",
+    "capitalNote": "Nauru has no official capital. Its government offices are in Yaren district.",
+    "capitalPrompt": "Which district hosts Nauru’s government offices?"
+  },
+  {
+    "id": "np",
+    "iso3": "NPL",
+    "numeric": "524",
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "latlng": [
+      28,
+      84
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Asia"
+      ],
+      [
+        "💬",
+        "Nepali is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Nepal is in Southern Asia. It shares a land border with China, India."
+  },
+  {
+    "id": "nl",
+    "iso3": "NLD",
+    "numeric": "528",
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "latlng": [
+      52.5,
+      5.75
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Europe"
+      ],
+      [
+        "💬",
+        "Dutch is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Netherlands is in Western Europe. It shares a land border with Belgium, Germany.",
+    "capitalNote": "Amsterdam is the capital; the government sits in The Hague."
+  },
+  {
+    "id": "nz",
+    "iso3": "NZL",
+    "numeric": "554",
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "latlng": [
+      -41,
+      174
+    ],
+    "clues": [
+      [
+        "🥝",
+        "Kiwi birds & fruit"
+      ],
+      [
+        "🏉",
+        "Rugby"
+      ],
+      [
+        "🏔️",
+        "Southern Alps"
+      ]
+    ],
+    "fact": "The kiwi is a flightless bird native to New Zealand."
+  },
+  {
+    "id": "ni",
+    "iso3": "NIC",
+    "numeric": "558",
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "region": "North America",
+    "subregion": "Central America",
+    "latlng": [
+      13,
+      -85
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central America"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Nicaragua is in Central America. It shares a land border with Costa Rica, Honduras."
+  },
+  {
+    "id": "ne",
+    "iso3": "NER",
+    "numeric": "562",
+    "name": "Niger",
+    "capital": "Niamey",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      16,
+      8
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Niger is in Western Africa. It shares a land border with Algeria, Benin, Burkina Faso and other neighbours."
+  },
+  {
+    "id": "ng",
+    "iso3": "NGA",
+    "numeric": "566",
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      10,
+      8
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Nigeria is in Western Africa. It shares a land border with Benin, Cameroon, Chad and other neighbours."
+  },
+  {
+    "id": "kp",
+    "iso3": "PRK",
+    "numeric": "408",
+    "name": "North Korea",
+    "capital": "Pyongyang",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "latlng": [
+      40,
+      127
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Asia"
+      ],
+      [
+        "💬",
+        "Korean is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "North Korea is in Eastern Asia. It shares a land border with China, South Korea, Russia."
+  },
+  {
+    "id": "mk",
+    "iso3": "MKD",
+    "numeric": "807",
+    "name": "North Macedonia",
+    "capital": "Skopje",
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "latlng": [
+      41.83333333,
+      22
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southeast Europe"
+      ],
+      [
+        "💬",
+        "Macedonian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "North Macedonia is in Southeast Europe. It shares a land border with Albania, Bulgaria, Greece and other neighbours."
+  },
+  {
+    "id": "no",
+    "iso3": "NOR",
+    "numeric": "578",
+    "name": "Norway",
+    "capital": "Oslo",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "latlng": [
+      62,
+      10
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Europe"
+      ],
+      [
+        "💬",
+        "Norwegian Nynorsk is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Norway is in Northern Europe. It shares a land border with Finland, Sweden, Russia."
+  },
+  {
+    "id": "om",
+    "iso3": "OMN",
+    "numeric": "512",
+    "name": "Oman",
+    "capital": "Muscat",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      21,
+      57
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Oman is in Western Asia. It shares a land border with Saudi Arabia, United Arab Emirates, Yemen."
+  },
+  {
+    "id": "pk",
+    "iso3": "PAK",
+    "numeric": "586",
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "latlng": [
+      30,
+      70
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Asia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Pakistan is in Southern Asia. It shares a land border with Afghanistan, China, India and other neighbours."
+  },
+  {
+    "id": "pw",
+    "iso3": "PLW",
+    "numeric": "585",
+    "name": "Palau",
+    "capital": "Ngerulmud",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "latlng": [
+      7.5,
+      134.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Micronesia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Palau is in Micronesia. It has no land borders with other countries."
+  },
+  {
+    "id": "ps",
+    "iso3": "PSE",
+    "numeric": "275",
+    "name": "Palestine",
+    "capital": "Ramallah",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      31.9,
+      35.2
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Palestine is in Western Asia. It shares a land border with Israel, Egypt, Jordan.",
+    "capitalNote": "Ramallah is the administrative centre. Palestine claims East Jerusalem as its capital; Jerusalem’s status is disputed.",
+    "capitalPrompt": "Which city is the Palestinian Authority’s administrative centre?"
+  },
+  {
+    "id": "pa",
+    "iso3": "PAN",
+    "numeric": "591",
+    "name": "Panama",
+    "capital": "Panama City",
+    "region": "North America",
+    "subregion": "Central America",
+    "latlng": [
+      9,
+      -80
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central America"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Panama is in Central America. It shares a land border with Colombia, Costa Rica."
+  },
+  {
+    "id": "pg",
+    "iso3": "PNG",
+    "numeric": "598",
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "latlng": [
+      -6,
+      147
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Melanesia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Papua New Guinea is in Melanesia. It shares a land border with Indonesia."
+  },
+  {
+    "id": "py",
+    "iso3": "PRY",
+    "numeric": "600",
+    "name": "Paraguay",
+    "capital": "Asunción",
+    "region": "South America",
+    "subregion": "South America",
+    "latlng": [
+      -23,
+      -58
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South America"
+      ],
+      [
+        "💬",
+        "Guaraní is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Paraguay is in South America. It shares a land border with Argentina, Bolivia, Brazil."
+  },
+  {
+    "id": "pe",
+    "iso3": "PER",
+    "numeric": "604",
+    "name": "Peru",
+    "capital": "Lima",
+    "region": "South America",
+    "subregion": "South America",
+    "latlng": [
+      -10,
+      -76
+    ],
+    "clues": [
+      [
+        "⛰️",
+        "Machu Picchu"
+      ],
+      [
+        "🦙",
+        "Llamas"
+      ],
+      [
+        "🥔",
+        "Potatoes"
+      ]
+    ],
+    "fact": "Machu Picchu is an Inca site high in the Andes mountains."
+  },
+  {
+    "id": "ph",
+    "iso3": "PHL",
+    "numeric": "608",
+    "name": "Philippines",
+    "capital": "Manila",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "latlng": [
+      13,
+      122
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South-Eastern Asia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Philippines is in South-Eastern Asia. It has no land borders with other countries."
+  },
+  {
+    "id": "pl",
+    "iso3": "POL",
+    "numeric": "616",
+    "name": "Poland",
+    "capital": "Warsaw",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "latlng": [
+      52,
+      20
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central Europe"
+      ],
+      [
+        "💬",
+        "Polish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Poland is in Central Europe. It shares a land border with Belarus, Czechia, Germany and other neighbours."
+  },
+  {
+    "id": "pt",
+    "iso3": "PRT",
+    "numeric": "620",
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "latlng": [
+      39.5,
+      -8
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Europe"
+      ],
+      [
+        "💬",
+        "Portuguese is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Portugal is in Southern Europe. It shares a land border with Spain."
+  },
+  {
+    "id": "qa",
+    "iso3": "QAT",
+    "numeric": "634",
+    "name": "Qatar",
+    "capital": "Doha",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      25.5,
+      51.25
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Qatar is in Western Asia. It shares a land border with Saudi Arabia."
+  },
+  {
+    "id": "cg",
+    "iso3": "COG",
+    "numeric": "178",
+    "name": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "latlng": [
+      -1,
+      15
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Middle Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Republic of the Congo is in Middle Africa. It shares a land border with Angola, Cameroon, Central African Republic and other neighbours."
+  },
+  {
+    "id": "ro",
+    "iso3": "ROU",
+    "numeric": "642",
+    "name": "Romania",
+    "capital": "Bucharest",
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "latlng": [
+      46,
+      25
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southeast Europe"
+      ],
+      [
+        "💬",
+        "Romanian is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Romania is in Southeast Europe. It shares a land border with Bulgaria, Hungary, Moldova and other neighbours."
+  },
+  {
+    "id": "ru",
+    "iso3": "RUS",
+    "numeric": "643",
+    "name": "Russia",
+    "capital": "Moscow",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "latlng": [
+      60,
+      100
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Europe"
+      ],
+      [
+        "💬",
+        "Russian is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Russia is in Eastern Europe. It shares a land border with Azerbaijan, Belarus, China and other neighbours."
+  },
+  {
+    "id": "rw",
+    "iso3": "RWA",
+    "numeric": "646",
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      -2,
+      30
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Rwanda is in Eastern Africa. It shares a land border with Burundi, DR Congo, Tanzania and other neighbours."
+  },
+  {
+    "id": "kn",
+    "iso3": "KNA",
+    "numeric": "659",
+    "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      17.33333333,
+      -62.75
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Saint Kitts and Nevis is in Caribbean. It has no land borders with other countries."
+  },
+  {
+    "id": "lc",
+    "iso3": "LCA",
+    "numeric": "662",
+    "name": "Saint Lucia",
+    "capital": "Castries",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      13.88333333,
+      -60.96666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Saint Lucia is in Caribbean. It has no land borders with other countries."
+  },
+  {
+    "id": "vc",
+    "iso3": "VCT",
+    "numeric": "670",
+    "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      13.25,
+      -61.2
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Saint Vincent and the Grenadines is in Caribbean. It has no land borders with other countries."
+  },
+  {
+    "id": "ws",
+    "iso3": "WSM",
+    "numeric": "882",
+    "name": "Samoa",
+    "capital": "Apia",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "latlng": [
+      -13.58333333,
+      -172.33333333
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Polynesia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Samoa is in Polynesia. It has no land borders with other countries."
+  },
+  {
+    "id": "sm",
+    "iso3": "SMR",
+    "numeric": "674",
+    "name": "San Marino",
+    "capital": "City of San Marino",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "latlng": [
+      43.76666666,
+      12.41666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Europe"
+      ],
+      [
+        "💬",
+        "Italian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "San Marino is in Southern Europe. It shares a land border with Italy."
+  },
+  {
+    "id": "st",
+    "iso3": "STP",
+    "numeric": "678",
+    "name": "São Tomé and Príncipe",
+    "capital": "São Tomé",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "latlng": [
+      1,
+      7
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Middle Africa"
+      ],
+      [
+        "💬",
+        "Portuguese is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "São Tomé and Príncipe is in Middle Africa. It has no land borders with other countries."
+  },
+  {
+    "id": "sa",
+    "iso3": "SAU",
+    "numeric": "682",
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      25,
+      45
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Saudi Arabia is in Western Asia. It shares a land border with Iraq, Jordan, Kuwait and other neighbours."
+  },
+  {
+    "id": "sn",
+    "iso3": "SEN",
+    "numeric": "686",
+    "name": "Senegal",
+    "capital": "Dakar",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      14,
+      -14
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Senegal is in Western Africa. It shares a land border with Gambia, Guinea, Guinea-Bissau and other neighbours."
+  },
+  {
+    "id": "rs",
+    "iso3": "SRB",
+    "numeric": "688",
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "latlng": [
+      44,
+      21
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southeast Europe"
+      ],
+      [
+        "💬",
+        "Serbian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Serbia is in Southeast Europe. It shares a land border with Bosnia and Herzegovina, Bulgaria, Croatia and other neighbours."
+  },
+  {
+    "id": "sc",
+    "iso3": "SYC",
+    "numeric": "690",
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      -4.58333333,
+      55.66666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "Seychellois Creole is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Seychelles is in Eastern Africa. It has no land borders with other countries."
+  },
+  {
+    "id": "sl",
+    "iso3": "SLE",
+    "numeric": "694",
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      8.5,
+      -11.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Sierra Leone is in Western Africa. It shares a land border with Guinea, Liberia."
+  },
+  {
+    "id": "sg",
+    "iso3": "SGP",
+    "numeric": "702",
+    "name": "Singapore",
+    "capital": "Singapore",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "latlng": [
+      1.36666666,
+      103.8
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South-Eastern Asia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Singapore is in South-Eastern Asia. It has no land borders with other countries."
+  },
+  {
+    "id": "sk",
+    "iso3": "SVK",
+    "numeric": "703",
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "latlng": [
+      48.66666666,
+      19.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central Europe"
+      ],
+      [
+        "💬",
+        "Slovak is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Slovakia is in Central Europe. It shares a land border with Austria, Czechia, Hungary and other neighbours."
+  },
+  {
+    "id": "si",
+    "iso3": "SVN",
+    "numeric": "705",
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "latlng": [
+      46.11666666,
+      14.81666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central Europe"
+      ],
+      [
+        "💬",
+        "Slovene is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Slovenia is in Central Europe. It shares a land border with Austria, Croatia, Italy and other neighbours."
+  },
+  {
+    "id": "sb",
+    "iso3": "SLB",
+    "numeric": "090",
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "latlng": [
+      -8,
+      159
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Melanesia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Solomon Islands is in Melanesia. It has no land borders with other countries."
+  },
+  {
+    "id": "so",
+    "iso3": "SOM",
+    "numeric": "706",
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      10,
+      49
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Somalia is in Eastern Africa. It shares a land border with Djibouti, Ethiopia, Kenya."
+  },
+  {
+    "id": "za",
+    "iso3": "ZAF",
+    "numeric": "710",
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "latlng": [
+      -29,
+      24
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Africa"
+      ],
+      [
+        "💬",
+        "Afrikaans is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "South Africa is in Southern Africa. It shares a land border with Botswana, Lesotho, Mozambique and other neighbours.",
+    "capitalNote": "South Africa has three capitals: Pretoria (administrative), Cape Town (legislative), and Bloemfontein (judicial).",
+    "capitalPrompt": "What is South Africa’s administrative capital?"
+  },
+  {
+    "id": "kr",
+    "iso3": "KOR",
+    "numeric": "410",
+    "name": "South Korea",
+    "capital": "Seoul",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "latlng": [
+      37,
+      127.5
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Asia"
+      ],
+      [
+        "💬",
+        "Korean is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "South Korea is in Eastern Asia. It shares a land border with North Korea."
+  },
+  {
+    "id": "ss",
+    "iso3": "SSD",
+    "numeric": "728",
+    "name": "South Sudan",
+    "capital": "Juba",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "latlng": [
+      7,
+      30
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Middle Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "South Sudan is in Middle Africa. It shares a land border with Central African Republic, DR Congo, Ethiopia and other neighbours."
+  },
+  {
+    "id": "es",
+    "iso3": "ESP",
+    "numeric": "724",
+    "name": "Spain",
+    "capital": "Madrid",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "latlng": [
+      40,
+      -4
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Europe"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Spain is in Southern Europe. It shares a land border with Andorra, France, Gibraltar and other neighbours."
+  },
+  {
+    "id": "lk",
+    "iso3": "LKA",
+    "numeric": "144",
+    "name": "Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "latlng": [
+      7,
+      81
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Asia"
+      ],
+      [
+        "💬",
+        "Sinhala is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Sri Lanka is in Southern Asia. It shares a land border with India.",
+    "capitalNote": "Sri Jayawardenepura Kotte is the legislative capital; Colombo is the commercial capital.",
+    "capitalPrompt": "Which city is Sri Lanka’s legislative capital?"
+  },
+  {
+    "id": "sd",
+    "iso3": "SDN",
+    "numeric": "729",
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "latlng": [
+      15,
+      30
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Africa"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Sudan is in Northern Africa. It shares a land border with Central African Republic, Chad, Egypt and other neighbours."
+  },
+  {
+    "id": "sr",
+    "iso3": "SUR",
+    "numeric": "740",
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "region": "South America",
+    "subregion": "South America",
+    "latlng": [
+      4,
+      -56
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South America"
+      ],
+      [
+        "💬",
+        "Dutch is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Suriname is in South America. It shares a land border with Brazil, French Guiana, Guyana."
+  },
+  {
+    "id": "se",
+    "iso3": "SWE",
+    "numeric": "752",
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "latlng": [
+      62,
+      15
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Europe"
+      ],
+      [
+        "💬",
+        "Swedish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Sweden is in Northern Europe. It shares a land border with Finland, Norway."
+  },
+  {
+    "id": "ch",
+    "iso3": "CHE",
+    "numeric": "756",
+    "name": "Switzerland",
+    "capital": "Bern",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "latlng": [
+      47,
+      8
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Europe"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Switzerland is in Western Europe. It shares a land border with Austria, France, Italy and other neighbours.",
+    "capitalNote": "Bern is Switzerland’s federal city and the seat of its government.",
+    "capitalPrompt": "Which city is Switzerland’s federal city?"
+  },
+  {
+    "id": "sy",
+    "iso3": "SYR",
+    "numeric": "760",
+    "name": "Syria",
+    "capital": "Damascus",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      35,
+      38
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Syria is in Western Asia. It shares a land border with Iraq, Israel, Jordan and other neighbours."
+  },
+  {
+    "id": "tw",
+    "iso3": "TWN",
+    "numeric": "158",
+    "name": "Taiwan",
+    "capital": "Taipei",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "latlng": [
+      23.5,
+      121
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Asia"
+      ],
+      [
+        "💬",
+        "Chinese is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Taiwan is in Eastern Asia. It has no land borders with other countries."
+  },
+  {
+    "id": "tj",
+    "iso3": "TJK",
+    "numeric": "762",
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "latlng": [
+      39,
+      71
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central Asia"
+      ],
+      [
+        "💬",
+        "Russian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Tajikistan is in Central Asia. It shares a land border with Afghanistan, China, Kyrgyzstan and other neighbours."
+  },
+  {
+    "id": "tz",
+    "iso3": "TZA",
+    "numeric": "834",
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      -6,
+      35
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Tanzania is in Eastern Africa. It shares a land border with Burundi, DR Congo, Kenya and other neighbours."
+  },
+  {
+    "id": "th",
+    "iso3": "THA",
+    "numeric": "764",
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "latlng": [
+      15,
+      100
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South-Eastern Asia"
+      ],
+      [
+        "💬",
+        "Thai is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Thailand is in South-Eastern Asia. It shares a land border with Myanmar, Cambodia, Laos and other neighbours."
+  },
+  {
+    "id": "tl",
+    "iso3": "TLS",
+    "numeric": "626",
+    "name": "Timor-Leste",
+    "capital": "Dili",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "latlng": [
+      -8.83333333,
+      125.91666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South-Eastern Asia"
+      ],
+      [
+        "💬",
+        "Portuguese is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Timor-Leste is in South-Eastern Asia. It shares a land border with Indonesia."
+  },
+  {
+    "id": "tg",
+    "iso3": "TGO",
+    "numeric": "768",
+    "name": "Togo",
+    "capital": "Lomé",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "latlng": [
+      8,
+      1.16666666
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Africa"
+      ],
+      [
+        "💬",
+        "French is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Togo is in Western Africa. It shares a land border with Benin, Burkina Faso, Ghana."
+  },
+  {
+    "id": "to",
+    "iso3": "TON",
+    "numeric": "776",
+    "name": "Tonga",
+    "capital": "Nuku'alofa",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "latlng": [
+      -20,
+      -175
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Polynesia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Tonga is in Polynesia. It has no land borders with other countries."
+  },
+  {
+    "id": "tt",
+    "iso3": "TTO",
+    "numeric": "780",
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "region": "North America",
+    "subregion": "Caribbean",
+    "latlng": [
+      11,
+      -61
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Caribbean"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Trinidad and Tobago is in Caribbean. It has no land borders with other countries."
+  },
+  {
+    "id": "tn",
+    "iso3": "TUN",
+    "numeric": "788",
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "latlng": [
+      34,
+      9
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Africa"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Tunisia is in Northern Africa. It shares a land border with Algeria, Libya."
+  },
+  {
+    "id": "tr",
+    "iso3": "TUR",
+    "numeric": "792",
+    "name": "Türkiye",
+    "capital": "Ankara",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      39,
+      35
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Turkish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Türkiye is in Western Asia. It shares a land border with Armenia, Azerbaijan, Bulgaria and other neighbours."
+  },
+  {
+    "id": "tm",
+    "iso3": "TKM",
+    "numeric": "795",
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "latlng": [
+      40,
+      60
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central Asia"
+      ],
+      [
+        "💬",
+        "Russian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Turkmenistan is in Central Asia. It shares a land border with Afghanistan, Iran, Kazakhstan and other neighbours."
+  },
+  {
+    "id": "tv",
+    "iso3": "TUV",
+    "numeric": "798",
+    "name": "Tuvalu",
+    "capital": "Funafuti",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "latlng": [
+      -8,
+      178
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Polynesia"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Tuvalu is in Polynesia. It has no land borders with other countries."
+  },
+  {
+    "id": "ug",
+    "iso3": "UGA",
+    "numeric": "800",
+    "name": "Uganda",
+    "capital": "Kampala",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      1,
+      32
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Uganda is in Eastern Africa. It shares a land border with DR Congo, Kenya, Rwanda and other neighbours."
+  },
+  {
+    "id": "ua",
+    "iso3": "UKR",
+    "numeric": "804",
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "latlng": [
+      49,
+      32
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Europe"
+      ],
+      [
+        "💬",
+        "Ukrainian is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Ukraine is in Eastern Europe. It shares a land border with Belarus, Hungary, Moldova and other neighbours."
+  },
+  {
+    "id": "ae",
+    "iso3": "ARE",
+    "numeric": "784",
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      24,
+      54
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "United Arab Emirates is in Western Asia. It shares a land border with Oman, Saudi Arabia."
+  },
+  {
+    "id": "gb",
+    "iso3": "GBR",
+    "numeric": "826",
+    "name": "United Kingdom",
+    "capital": "London",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "latlng": [
+      54,
+      -2
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Northern Europe"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "United Kingdom is in Northern Europe. It shares a land border with Ireland."
+  },
+  {
+    "id": "us",
+    "iso3": "USA",
+    "numeric": "840",
+    "name": "United States",
+    "capital": "Washington D.C.",
+    "region": "North America",
+    "subregion": "North America",
+    "latlng": [
+      38,
+      -97
+    ],
+    "clues": [
+      [
+        "🌍",
+        "North America"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "United States is in North America. It shares a land border with Canada, Mexico."
+  },
+  {
+    "id": "uy",
+    "iso3": "URY",
+    "numeric": "858",
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "region": "South America",
+    "subregion": "South America",
+    "latlng": [
+      -33,
+      -56
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South America"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Uruguay is in South America. It shares a land border with Argentina, Brazil."
+  },
+  {
+    "id": "uz",
+    "iso3": "UZB",
+    "numeric": "860",
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "latlng": [
+      41,
+      64
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Central Asia"
+      ],
+      [
+        "💬",
+        "Russian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Uzbekistan is in Central Asia. It shares a land border with Afghanistan, Kazakhstan, Kyrgyzstan and other neighbours."
+  },
+  {
+    "id": "vu",
+    "iso3": "VUT",
+    "numeric": "548",
+    "name": "Vanuatu",
+    "capital": "Port Vila",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "latlng": [
+      -16,
+      167
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Melanesia"
+      ],
+      [
+        "💬",
+        "Bislama is spoken here"
+      ],
+      [
+        "🌊",
+        "No land borders"
+      ]
+    ],
+    "fact": "Vanuatu is in Melanesia. It has no land borders with other countries."
+  },
+  {
+    "id": "va",
+    "iso3": "VAT",
+    "numeric": "336",
+    "name": "Vatican City",
+    "capital": "Vatican City",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "latlng": [
+      41.9,
+      12.45
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Southern Europe"
+      ],
+      [
+        "💬",
+        "Italian is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Vatican City is in Southern Europe. It shares a land border with Italy."
+  },
+  {
+    "id": "ve",
+    "iso3": "VEN",
+    "numeric": "862",
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "region": "South America",
+    "subregion": "South America",
+    "latlng": [
+      8,
+      -66
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South America"
+      ],
+      [
+        "💬",
+        "Spanish is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Venezuela is in South America. It shares a land border with Brazil, Colombia, Guyana."
+  },
+  {
+    "id": "vn",
+    "iso3": "VNM",
+    "numeric": "704",
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "latlng": [
+      16.16666666,
+      107.83333333
+    ],
+    "clues": [
+      [
+        "🌍",
+        "South-Eastern Asia"
+      ],
+      [
+        "💬",
+        "Vietnamese is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Vietnam is in South-Eastern Asia. It shares a land border with Cambodia, China, Laos."
+  },
+  {
+    "id": "ye",
+    "iso3": "YEM",
+    "numeric": "887",
+    "name": "Yemen",
+    "capital": "Sana'a",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "latlng": [
+      15,
+      48
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Western Asia"
+      ],
+      [
+        "💬",
+        "Arabic is spoken here"
+      ],
+      [
+        "🌊",
+        "Has a coastline"
+      ]
+    ],
+    "fact": "Yemen is in Western Asia. It shares a land border with Oman, Saudi Arabia."
+  },
+  {
+    "id": "zm",
+    "iso3": "ZMB",
+    "numeric": "894",
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      -15,
+      30
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "English is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Zambia is in Eastern Africa. It shares a land border with Angola, Botswana, DR Congo and other neighbours."
+  },
+  {
+    "id": "zw",
+    "iso3": "ZWE",
+    "numeric": "716",
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "latlng": [
+      -20,
+      30
+    ],
+    "clues": [
+      [
+        "🌍",
+        "Eastern Africa"
+      ],
+      [
+        "💬",
+        "Chibarwe is spoken here"
+      ],
+      [
+        "⛰️",
+        "Landlocked: no ocean coastline"
+      ]
+    ],
+    "fact": "Zimbabwe is in Eastern Africa. It shares a land border with Botswana, Mozambique, South Africa and other neighbours."
+  }
+]

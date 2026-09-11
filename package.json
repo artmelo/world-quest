@@ -1,1 +1,27 @@
-{"name":"world-quest","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"vite build","preview":"vite preview --host 127.0.0.1","test":"node --test src/game.test.js"},"dependencies":{"react":"^19.1.0","react-dom":"^19.1.0","flag-icons":"^7.5.0"},"devDependencies":{"vite":"^7.1.0"}}
+{
+  "name": "world-quest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run map:build && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test src/game.test.js",
+    "map:build": "node scripts/build-map.mjs",
+    "predev": "npm run map:build",
+    "pretest": "npm run map:build"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.1",
+    "flag-icons": "^7.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "topojson-simplify": "^3.0.3",
+    "vite": "^7.1.0"
+  }
+}

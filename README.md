@@ -2,8 +2,12 @@
 
 A small, friendly two-player geography game for a shared laptop, tablet or phone. Follow visual clues, guess countries and capitals, and decide whether to risk your turn’s points for a flag bonus.
 
-- 12 countries, three visual anchors and a short fact each
-- 2, 4 or 6 turns each, with explicit device handoffs
+- 197 countries, three clues and a short fact each
+- Grand Adventure is selected by default: 6 turns each; shorter trips are available
+- Clue Explorer: 4 choices and three clues
+- Map Explorer (hard): 8 choices and an animated, unlabelled border map
+- Correct answers turn green; wrong selections turn red and reveal the correct answer in green
+- Explicit device handoffs between turns
 - Country +100, capital +50; optional flag +100 or lose this turn’s points
 - No login, database, paid API or timer
 - Responsive, keyboard-friendly Vite + React app
@@ -49,7 +53,9 @@ The workflow is manual so Pages does not deploy or produce setup failures before
 Official reference: https://vite.dev/guide/static-deploy#github-pages.
 
 ## Content and assets
-Edit `src/countries.js` to adjust countries, capitals, clues and facts. Emoji art is provided by the device’s font; clue text clarifies each association. Flags are copied from the MIT-licensed `flag-icons` package; see `public/flags/LICENSE`. Google Fonts (DM Sans and Outfit) are optional and fall back to system fonts if unavailable. No runtime game API is used.
+Edit `src/data/countries.json` to adjust countries, capitals, clues and facts. See [DATA-SOURCES.md](DATA-SOURCES.md) for coverage, licenses and capital exceptions. The 197-entry pool includes 193 UN members plus Palestine, Vatican City, Kosovo and Taiwan; dependent territories are excluded. The original 12 retain cultural clues; additional entries use geographic and language clues. Emoji art is provided by the device’s font; clue text clarifies each association. Flags are bundled from the MIT-licensed `flag-icons` package; see `public/flags/LICENSE`. Google Fonts (DM Sans and Outfit) are optional and fall back to system fonts if unavailable. No runtime game API is used.
 
 ## Testing scope
-Automated tests cover deck uniqueness, answer options, correct/incorrect scoring, repeat-answer prevention, banking, risk losses, turn progression, equal turns and match completion. Country difficulty is not calibrated. Flag questions are visual; screen-reader options identify A–D without revealing country names.
+Nine automated tests cover both difficulties, every trip length, green/red feedback, scoring, invalid and repeated answers, banking, risk losses, equal turns, replay, 591 clues, 197 flags, all map targets and capital exceptions. `npm test` and `npm run build` first regenerate map geometry locally from the pinned world-atlas package. Country difficulty is not calibrated. Flag questions are visual; screen-reader options identify A–D without revealing country names.
+
+Map Explorer loads its map separately from the main game. It respects reduced-motion settings, offers Replay flight, and uses a locator ring for microstates. The map focuses on each target’s largest landmass; the three clues are revealed after guessing.
