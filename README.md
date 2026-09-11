@@ -1,6 +1,6 @@
 # World Quest 🌍
 
-A small, friendly two-player geography game for a shared laptop, tablet or phone. Follow visual clues, guess countries and capitals, and decide whether to risk your turn’s points for a flag bonus.
+A small, friendly 2–8-player geography game for a shared laptop, tablet or phone. Follow visual clues, guess countries and capitals, and decide whether to risk your turn’s points for a flag bonus.
 
 - 197 countries, three clues and a short fact each
 - Grand Adventure is selected by default: 6 turns each; shorter trips are available
@@ -56,6 +56,8 @@ Official reference: https://vite.dev/guide/static-deploy#github-pages.
 Edit `src/data/countries.json` to adjust countries, capitals, clues and facts. See [DATA-SOURCES.md](DATA-SOURCES.md) for coverage, licenses and capital exceptions. The 197-entry pool includes 193 UN members plus Palestine, Vatican City, Kosovo and Taiwan; dependent territories are excluded. The original 12 retain cultural clues; additional entries use geographic and language clues. Emoji art is provided by the device’s font; clue text clarifies each association. Flags are bundled from the MIT-licensed `flag-icons` package; see `public/flags/LICENSE`. Google Fonts (DM Sans and Outfit) are optional and fall back to system fonts if unavailable. No runtime game API is used.
 
 ## Testing scope
-Nine automated tests cover both difficulties, every trip length, green/red feedback, scoring, invalid and repeated answers, banking, risk losses, equal turns, replay, 591 clues, 197 flags, all map targets and capital exceptions. `npm test` and `npm run build` first regenerate map geometry locally from the pinned world-atlas package. Country difficulty is not calibrated. Flag questions are visual; screen-reader options identify A–D without revealing country names.
+Automated tests cover both difficulties, every trip length, green/red feedback, scoring, invalid and repeated answers, banking, risk losses, equal turns, replay, 591 clues, 197 flags, all map targets and capital exceptions. `npm test` and `npm run build` first regenerate map geometry locally from the pinned world-atlas package. Country difficulty is not calibrated. Flag questions are visual; screen-reader options identify A–D without revealing country names.
 
 Map Explorer loads its map separately from the main game. It respects reduced-motion settings, offers Replay flight, and uses a locator ring for microstates. The map focuses on each target’s largest landmass; the three clues are revealed after guessing.
+
+Player setup supports 2–8 players. Rosters stay fixed during a match; use New trip to change them. Every player gets the selected number of turns. Scores and handoffs follow roster order, all tied winners are named, and replay keeps the whole roster.

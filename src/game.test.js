@@ -55,3 +55,26 @@ test('capital exceptions avoid ambiguous questions',()=>{
  for(const id of ['ps','il','za','lk','nr','sz','bo','ch']){const c=countries.find(c=>c.id===id);assert(c.capitalPrompt&&c.capitalNote,id);}
  assert.equal(countries.find(c=>c.id==='gq').capital,'Ciudad de la Paz');
 });
+
+test('2–8 players receive equal turns, individual scores and full-roster replay',()=>{
+ for(let count=2;count<=8;count++)for(const difficulty of ['classic','map'])for(const rounds of [2,4,6]){
+  const names=Array.from({length:count},(_,i)=>`Player ${i+1}`);let s=newGame(names,rounds,difficulty);
+  assert.equal(s.deck.length,count*rounds);assert.equal(new Set(s.deck.map(q=>q.country.id)).size,count*rounds);assert.deepEqual(s.scores,Array(count).fill(0));
+  for(let turn=0;turn<count*rounds;turn++){
+   const player=turn%count;assert.equal(s.turn%s.names.length,player);s=transition(s,{type:'ready'});
+   s=next(answer(s,player%2===0));s=next(answer(s));s=transition(s,{type:'bank'});s=transition(s,{type:'finish'});
+  }
+  assert.equal(s.stage,'results');assert.deepEqual(s.scores,names.map((_,i)=>rounds*(i%2===0?150:50)));
+  const replay=newGame(s.names,s.rounds,s.difficulty);assert.deepEqual(replay.names,names);assert.deepEqual(replay.scores,Array(count).fill(0));
+ }
+});
+test('player bounds and empty-name fallbacks are enforced',()=>{
+ for(const count of [0,1,9])assert.throws(()=>newGame(Array(count).fill('A')),/2–8/);
+ assert.deepEqual(newGame(['A','',' C ']).names,['A','Explorer 2','C']);
+});
+test('winner calculation includes a late-roster winner and partial ties',async()=>{
+ const {winners}=await import('./game.js');const names=['A','B','C','D','E','F','G','H'];
+ assert.deepEqual(winners({names,scores:[0,0,0,0,0,0,0,100]}).map(p=>p.name),['H']);
+ assert.deepEqual(winners({names,scores:[50,0,0,50,0,0,0,50]}).map(p=>p.name),['A','D','H']);
+ assert.equal(winners({names,scores:Array(8).fill(0)}).length,8);
+});
