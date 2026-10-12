@@ -78,3 +78,26 @@ test('winner calculation includes a late-roster winner and partial ties',async()
  assert.deepEqual(winners({names,scores:[50,0,0,50,0,0,0,50]}).map(p=>p.name),['A','D','H']);
  assert.equal(winners({names,scores:Array(8).fill(0)}).length,8);
 });
+
+test('country, capital and flag use distinct correct slots with stable feedback',()=>{
+ for(const difficulty of ['classic','map'])for(const correct of [true,false])for(let run=0;run<40;run++){
+  let s=transition(newGame(['A','B'],2,difficulty),{type:'ready'});
+  const original=s,originalOptions=s.deck[0].options;
+  const expectedIds=originalOptions.map(o=>o.id).sort(),slots=[];
+  for(const stage of ['country','capital','flag']){
+   assert.equal(s.stage,stage);
+   const options=s.deck[0].options;
+   slots.push(options.findIndex(o=>o.id===s.deck[0].country.id));
+   assert.deepEqual(options.map(o=>o.id).sort(),expectedIds);
+   const answered=answer(s,correct);
+   assert.strictEqual(answered.deck[0].options,options);
+   assert.strictEqual(answer(answered),answered);
+   assert.deepEqual(transition(s,{type:'unrecognized'}),s);
+   assert.deepEqual(transition(s,{type:'answer',id:s.deck[0].country.id}),transition(s,{type:'answer',id:s.deck[0].country.id}));
+   s=next(answered);
+   if(stage==='capital')s=transition(s,{type:'risk'});
+  }
+  assert.equal(new Set(slots).size,3);
+  assert.strictEqual(original.deck[0].options,originalOptions);
+ }
+});
