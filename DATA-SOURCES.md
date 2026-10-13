@@ -32,4 +32,19 @@ Flags are bundled by Vite from the pinned MIT-licensed `flag-icons` package. Cou
 Google Fonts remain optional with system-font fallbacks. No runtime country, map or flag API is required.
 
 ## Additional starting clues
-Two extra clues were added on 2026-10-12: approximate area (rounded to two significant digits), from mledoze/countries, and a nearby-country cue computed from the closest representative country coordinates in the existing dataset. The nearby cue is a map-search aid, not a claim about shared land borders or the closest national boundary. The original three clues are preserved. Map Explorer continues to reveal all five clues after answering.
+Each country has an approximate area clue (rounded to two significant digits), sourced from mledoze/countries, and a manually written landmark or nature clue. On 2026-10-12 the nearby-country hints were replaced with 197 distinct clues about architecture, landscapes, wildlife habitats and natural features. The original three clues and the area clue are preserved. Map Explorer continues to reveal all five clues after answering.
+
+Landmark names identify memorable associations; they do not imply that an ecosystem or feature occurs in only one country. Shared features are described as shared where relevant. Country names are avoided in the new hints when they would directly reveal the answer.
+
+Reference material used for the landmark review:
+- [UNESCO World Heritage List](https://whc.unesco.org/en/list/) — country associations for listed cultural and natural sites.
+- [Karera Falls, Burundi nomination](https://whc.unesco.org/en/tentativelists/6932/).
+- [Buada Lagoon](https://visitnauru.org/discover/buada-lagoon).
+- [Funafuti Marine Conservation, Government of Tuvalu](https://tourism.gov.tv/funafuti-marine-conservation-2/).
+- [Hell’s Gate National Park, Kenya Wildlife Service](https://kws.go.ke/park/hells-gate-national-park/).
+- [Hanifaru Bay manta rays, Visit Maldives](https://visitmaldives.com/en/experience/encounters-with-the-majestic-manta-rays-101).
+- [Atauro Island, Timor-Leste Tourism](https://timorleste.tl/destinations/atauro-island).
+- [Marovo Lagoon, UNESCO Pacific cultural landscapes](https://whc.unesco.org/document/10062).
+- [Nature tourism, Suriname tourism authority](https://sita.sr/tourism/).
+
+These are educational clues, not statements about current visitor access or site opening status.

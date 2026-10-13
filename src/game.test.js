@@ -101,3 +101,14 @@ test('country, capital and flag use distinct correct slots with stable feedback'
   assert.strictEqual(original.deck[0].options,originalOptions);
  }
 });
+
+test('every country has a distinct landmark or nature hint instead of a nearby-country hint',()=>{
+ const hints=countries.map(c=>c.clues[4][1]);
+ assert.equal(new Set(hints).size,countries.length);
+ for(const c of countries){
+  assert.equal(c.clues.length,5,c.name);
+  assert(c.clues[3][1].includes('km²'),c.name);
+  assert(!c.clues.some(([,label])=>/Look near .*on the world map|population/i.test(label)),c.name);
+  assert(c.clues[4][0]&&c.clues[4][1].length>20,c.name);
+ }
+});
