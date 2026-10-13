@@ -3,7 +3,7 @@
 ## Coverage and clues
 The pool contains **197 entries**: 193 UN members, Palestine, Vatican City (the Holy See), Kosovo and Taiwan. Inclusion is an educational coverage choice, not a claim about recognition. Dependent territories are not separate quiz entries. Every match samples without replacement from the full pool; Grand Adventure still gives each player six turns.
 
-Every country has exactly three clues (591 total). The original 12 retain their landmark, animal and food associations. Additional countries use sourced geographic and language clues: subregion, a language spoken there, and whether the country is landlocked, coastal or has no land borders. Language clues are examples, not claims that a country has only one language. Map Explorer hides these clues until the country answer is submitted.
+Every country has exactly five clues (985 total). The original 12 retain their landmark, animal and food associations. Additional countries use sourced geographic and language clues: subregion, a language spoken there, and whether the country is landlocked, coastal or has no land borders. Language clues are examples, not claims that a country has only one language. Map Explorer hides these clues until the country answer is submitted.
 
 Names, capitals, language, region, coordinates and border metadata derive from [mledoze/countries](https://github.com/mledoze/countries), downloaded 2026-09-10. The modified dataset is provided in `src/data/countries.json` under the same [ODbL license](public/licenses/countries-ODbL.txt). This license applies to the country database, not automatically to application code. The small original cultural clue set is retained in the dataset. Geographic and language clues are generated from the source fields; custom names, capital prompts and capital notes are documented below.
 
@@ -30,3 +30,6 @@ D3 geo and TopoJSON are used only to prepare map data. Animation changes the SVG
 Flags are bundled by Vite from the pinned MIT-licensed `flag-icons` package. Country questions never show answer-revealing flags. Flag answer options have neutral A–H labels. Existing license: `public/flags/LICENSE`.
 
 Google Fonts remain optional with system-font fallbacks. No runtime country, map or flag API is required.
+
+## Additional starting clues
+Two extra clues were added on 2026-10-12: approximate area (rounded to two significant digits), from mledoze/countries, and a nearby-country cue computed from the closest representative country coordinates in the existing dataset. The nearby cue is a map-search aid, not a claim about shared land borders or the closest national boundary. The original three clues are preserved. Map Explorer continues to reveal all five clues after answering.

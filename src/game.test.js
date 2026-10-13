@@ -41,9 +41,9 @@ test('all trip lengths and difficulties finish with equal turns and replay reset
   const replay=newGame(s.names,s.rounds,s.difficulty);assert.equal(replay.difficulty,difficulty);assert.equal(replay.turn,0);assert.deepEqual(replay.scores,[0,0]);
  }
 });
-test('all 197 countries have three usable clues, capitals, and bundled flags',()=>{
+test('all 197 countries have five usable clues, capitals, and bundled flags',()=>{
  assert.equal(countries.length,197);assert.equal(new Set(countries.map(c=>c.id)).size,197);assert.equal(new Set(countries.map(c=>c.name)).size,197);
- for(const c of countries){assert.equal(c.clues.length,3,c.name);assert.equal(new Set(c.clues.map(x=>x[1])).size,3,c.name);for(const clue of c.clues)assert(clue[0]&&clue[1].length>2,c.name);assert(c.capital&&c.region&&c.fact,c.name);assert(fs.existsSync(`node_modules/flag-icons/flags/4x3/${c.id}.svg`),c.name);}
+ for(const c of countries){assert.equal(c.clues.length,5,c.name);assert.equal(new Set(c.clues.map(x=>x[1])).size,5,c.name);for(const clue of c.clues)assert(clue[0]&&clue[1].length>2,c.name);assert(c.capital&&c.region&&c.fact,c.name);assert(fs.existsSync(`node_modules/flag-icons/flags/4x3/${c.id}.svg`),c.name);}
 });
 test('every country has a finite map viewport and real border geometry, including microstates',()=>{
  const atlas=JSON.parse(fs.readFileSync('src/data/map.json'));
