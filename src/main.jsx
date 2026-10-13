@@ -1,3 +1,4 @@
+import {Analytics} from '@vercel/analytics/react';
 import React,{useReducer,useState,useEffect,useRef,lazy,Suspense} from 'react';
 import {createRoot} from 'react-dom/client';
 import {newGame,transition,answerStatus,winners} from './game.js';
@@ -26,4 +27,4 @@ function App(){
  </section></>}
  </main><footer><span>A little curiosity goes a long way.</span><span>Shared device · No timer · Just play</span><a href={`${import.meta.env.BASE_URL}data-sources.html`} target="_blank" rel="noreferrer">Country data & map credits</a></footer></div>
 }
-createRoot(document.getElementById('root')).render(<App/>);
+createRoot(document.getElementById('root')).render(<><App/><Analytics/></>);
