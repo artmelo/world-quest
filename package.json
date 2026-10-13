@@ -13,6 +13,7 @@
     "pretest": "npm run map:build"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "d3-geo": "^3.1.1",
     "flag-icons": "^7.5.0",
     "react": "^19.1.0",
