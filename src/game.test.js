@@ -112,3 +112,33 @@ test('every country has a distinct landmark or nature hint instead of a nearby-c
   assert(c.clues[4][0]&&c.clues[4][1].length>20,c.name);
  }
 });
+
+test('early learners offers all continents, scores once and completes every roster size',async()=>{
+ const {continents,countryContinents}=await import('./game.js');
+ assert.equal(continents.length,7);
+ for(let count=2;count<=8;count++){
+  let s=newGame(Array.from({length:count},(_,i)=>'Player '+i),2,'early');
+  for(let turn=0;turn<count*2;turn++){
+   s=transition(s,{type:'ready'});assert.equal(s.stage,'continent');
+   const q=s.deck[s.turn];assert.deepEqual(q.options.map(o=>o.id).sort(),[...continents].sort());
+   assert.strictEqual(transition(s,{type:'answer',id:'invalid'}),s);
+   const accepted=countryContinents(q.country),id=turn%2? 'Antarctica':accepted[0];
+   s=transition(s,{type:'answer',id});assert.equal(s.pot,turn%2?0:100);
+   assert.equal(answerStatus(s,accepted[0]),'correct');
+   if(turn%2)assert.equal(answerStatus(s,id),'incorrect');
+   assert.strictEqual(transition(s,{type:'answer',id:accepted[0]}),s);
+   s=transition(s,{type:'continue'});assert.equal(s.stage,'recap');
+   s=transition(s,{type:'finish'});
+  }
+  assert.equal(s.stage,'results');assert.equal(s.scores.reduce((a,b)=>a+b,0),count*100);
+  const replay=newGame(s.names,s.rounds,s.difficulty);assert.equal(replay.stage,'handoff');assert(replay.scores.every(x=>x===0));
+ }
+ for(const c of countries)assert(countryContinents(c).every(x=>continents.includes(x)),c.name);
+ for(const id of ['ru','tr','eg','kz','id']){
+  const c=countries.find(c=>c.id===id);
+  for(const option of countryContinents(c)){
+   let s=newGame(['A','B'],2,'early');s.deck[0].country=c;s=transition(s,{type:'ready'});
+   assert.equal(transition(s,{type:'answer',id:option}).pot,100);
+  }
+ }
+});

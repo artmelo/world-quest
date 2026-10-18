@@ -1,4 +1,8 @@
 import {countries} from './countries.js';
+export const continents=['Africa','Antarctica','Asia','Europe','North America','South America','Oceania'];
+// Accept either continent for countries commonly taught as spanning two.
+const sharedContinents={ru:['Europe','Asia'],tr:['Europe','Asia'],kz:['Europe','Asia'],az:['Europe','Asia'],ge:['Europe','Asia'],eg:['Africa','Asia'],id:['Asia','Oceania']};
+export function countryContinents(country){return sharedContinents[country.id]||[country.region];}
 export function shuffle(items,random=Math.random){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 // Give every question in a turn a different correct-answer slot.
 function questionOptions(country,count){
@@ -19,18 +23,23 @@ function showQuestion(s,stage){
 export function newGame(names,rounds=6,difficulty='classic'){
  if(!Array.isArray(names)||names.length<2||names.length>8)throw new Error('Choose 2–8 players.');
  if(![2,4,6].includes(rounds))throw new Error('Choose 2, 4 or 6 rounds.');
- if(!['classic','map'].includes(difficulty))throw new Error('Unknown difficulty.');
+ if(!['classic','map','early'].includes(difficulty))throw new Error('Unknown difficulty.');
  const count=difficulty==='map'?8:4;
- return {names:names.map((n,i)=>n.trim()||`Explorer ${i+1}`),rounds,difficulty,deck:shuffle(countries).slice(0,rounds*names.length).map(c=>questionOptions(c,count)),turn:0,scores:names.map(()=>0),stage:'handoff',pot:0,feedback:null};
+ return {names:names.map((n,i)=>n.trim()||`Explorer ${i+1}`),rounds,difficulty,deck:shuffle(countries).slice(0,rounds*names.length).map(c=>difficulty==='early'?{country:c,options:shuffle(continents).map(name=>({id:name,name}))}:questionOptions(c,count)),turn:0,scores:names.map(()=>0),stage:'handoff',pot:0,feedback:null};
 }
 export function answerStatus(s,id){
  if(!s.feedback)return '';
- if(id===s.deck[s.turn].country.id)return 'correct';
+ if(s.difficulty==='early'?countryContinents(s.deck[s.turn].country).includes(id):id===s.deck[s.turn].country.id)return 'correct';
  return id===s.feedback.selectedId?'incorrect':'';
 }
 export function transition(s,a){
  const q=s.deck[s.turn],c=q?.country;
- if(a.type==='ready'&&s.stage==='handoff')return {...s,stage:'country'};
+ if(a.type==='ready'&&s.stage==='handoff')return {...s,stage:s.difficulty==='early'?'continent':'country'};
+ if(a.type==='answer'&&s.stage==='continent'&&!s.feedback&&q.options.some(o=>o.id===a.id)){
+  const accepted=countryContinents(c),correct=accepted.includes(a.id);
+  return {...s,pot:correct?100:0,feedback:{correct,selectedId:a.id,answer:accepted.join(' & ')}};
+ }
+ if(a.type==='continue'&&s.feedback&&s.stage==='continent')return {...s,stage:'recap',feedback:null};
  if(a.type==='answer'&&['country','capital','flag'].includes(s.stage)&&!s.feedback&&q.options.some(o=>o.id===a.id)){
   const correct=a.id===c.id;
   const pot=s.stage==='flag'?(correct?s.pot+100:0):s.pot+(correct?(s.stage==='country'?100:50):0);

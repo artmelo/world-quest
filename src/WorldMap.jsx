@@ -2,7 +2,7 @@ import React,{useEffect,useId,useRef,useState} from 'react';
 import atlas from './data/map.json';
 const worldPath=atlas.world.join('');
 const WORLD=[-8,-55,976,610];
-export default function WorldMap({countryId}){
+export default function WorldMap({countryId,countryName}){
  const map=useRef(null),locator=useRef(null),worldId=useId();
  const [replay,setReplay]=useState(0),[flying,setFlying]=useState(true);
  const target=atlas.targets[countryId];
@@ -31,8 +31,8 @@ export default function WorldMap({countryId}){
  },[countryId,replay,target]);
  if(!target)return <p role="alert">This map could not load. Start a new trip in Clue Explorer mode.</p>;
  return <div className="map-panel">
-  <div className="map-status"><span role="status">{flying?'Flying to your mystery country…':'Which country did we land in?'}</span><button className="text" onClick={()=>setReplay(n=>n+1)}>Replay flight</button></div>
-  <svg ref={map} viewBox={WORLD.join(' ')} className="world-map" role="img" aria-label="Unlabelled world border map. The mystery country’s border is highlighted in orange.">
+  <div className="map-status"><span role="status">{flying?(countryName?`Flying to ${countryName}…`:'Flying to your mystery country…'):(countryName?`We landed in ${countryName}!`:'Which country did we land in?')}</span><button className="text" onClick={()=>setReplay(n=>n+1)}>Replay flight</button></div>
+  <svg ref={map} viewBox={WORLD.join(' ')} className="world-map" role="img" aria-label={countryName?`World border map. ${countryName} is highlighted in orange.`:"Unlabelled world border map. The mystery country’s border is highlighted in orange."}>
    <defs><path id={worldId} d={worldPath}/></defs>
    {[-960,0,960].map(offset=><g key={offset} transform={`translate(${offset} 0)`}><use href={`#${worldId}`} className="map-borders"/><path d={target.path} className="map-target"/></g>)}
    {target.small&&<circle ref={locator} cx={target.point[0]} cy={target.point[1]} r={WORLD[2]/95} className="map-locator"/>}

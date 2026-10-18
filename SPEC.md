@@ -24,3 +24,9 @@ Vite + React; pure state transitions; bundled dataset; no backend, accounts, tra
 A complete match works for each trip length; every country has four or eight unique options depending on difficulty; all 197 countries have three clues, flags and valid map targets; double-clicks cannot award twice; bank and flag failure preserve prior scores; equal turns and ties are handled; replay resets scores; production build succeeds; scoring and match completion tests pass.
 
 Player setup supports 2–8 players. Rosters stay fixed during a match; use New trip to change them. Every player gets the selected number of turns. Scores and handoffs follow roster order, all tied winners are named, and replay keeps the whole roster.
+
+
+## Early Learners — continent discovery
+Optional mode; Grand Adventure remains the default trip length and Clue Explorer the default challenge. Show the country name and its existing five clues (including regional hints as learning scaffolding). Present all seven shuffled choices: Africa, Antarctica, Asia, Europe, North America, South America, Oceania (Australia and the Pacific islands). Antarctica is a distractor, as the dataset contains no countries there. A correct answer earns 100 points; an incorrect answer earns zero. Lock the choices, show green/red feedback and replace the clues immediately with the existing fly-in world map, labelled with the revealed country. Keep replay flight and reduced-motion behavior. Continue to recap, then bank and pass the device. No capital/flag bonus in this mode. Support 2–8 players and replay.
+
+Use existing country regions, with either of the two taught continents accepted for Russia, Türkiye, Kazakhstan, Azerbaijan, Georgia, Egypt and Indonesia. This educational grouping describes the main geographic territory rather than all overseas possessions.
