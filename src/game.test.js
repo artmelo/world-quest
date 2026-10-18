@@ -142,3 +142,12 @@ test('early learners offers all continents, scores once and completes every rost
   }
  }
 });
+
+test('country clues contain no language hints and retain four early-learner hints',()=>{
+ for(const c of countries){
+  assert.equal(c.clues.length,5,c.name);
+  assert.equal(c.clues.slice(1).length,4,c.name);
+  assert(!c.clues.some(([,label])=>/spoken here/i.test(label)),c.name);
+  assert.notEqual(c.clues[1][0],'💬',c.name);
+ }
+});

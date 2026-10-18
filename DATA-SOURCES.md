@@ -3,9 +3,9 @@
 ## Coverage and clues
 The pool contains **197 entries**: 193 UN members, Palestine, Vatican City (the Holy See), Kosovo and Taiwan. Inclusion is an educational coverage choice, not a claim about recognition. Dependent territories are not separate quiz entries. Every match samples without replacement from the full pool; Grand Adventure still gives each player six turns.
 
-Every country has exactly five clues (985 total). The original 12 retain their landmark, animal and food associations. Additional countries use sourced geographic and language clues: subregion, a language spoken there, and whether the country is landlocked, coastal or has no land borders. Language clues are examples, not claims that a country has only one language. Map Explorer hides these clues until the country answer is submitted.
+Every country has exactly five clues (985 total). The original 12 retain their landmark, animal and food associations. Additional countries use sourced geographic and language clues: subregion, a country-associated animal, and whether the country is landlocked, coastal or has no land borders. Animal clues describe wildlife, conservation populations or domestic breeds associated with a country; they do not imply exclusivity or population ranking. Map Explorer hides these clues until the country answer is submitted.
 
-Names, capitals, language, region, coordinates and border metadata derive from [mledoze/countries](https://github.com/mledoze/countries), downloaded 2026-09-10. The modified dataset is provided in `src/data/countries.json` under the same [ODbL license](public/licenses/countries-ODbL.txt). This license applies to the country database, not automatically to application code. The small original cultural clue set is retained in the dataset. Geographic and language clues are generated from the source fields; custom names, capital prompts and capital notes are documented below.
+Names, capitals, language, region, coordinates and border metadata derive from [mledoze/countries](https://github.com/mledoze/countries), downloaded 2026-09-10. The modified dataset is provided in `src/data/countries.json` under the same [ODbL license](public/licenses/countries-ODbL.txt). This license applies to the country database, not automatically to application code. The small original cultural clue set is retained in the dataset. Geographic clues are generated from the source fields; custom names, capital prompts and capital notes are documented below.
 
 ## Capital handling
 - Equatorial Guinea: Ciudad de la Paz replaced Malabo in January 2026. [Government announcement](https://www.guineaecuatorialpress.com/noticias/el_presidente_de_la_republica_proclama_la_ciudad_de_la_paz_como_capital_de_la_republica_de_guinea_ecuatorial_con_la_firma_de_un_decreto_ley).
@@ -48,3 +48,13 @@ Reference material used for the landmark review:
 - [Nature tourism, Suriname tourism authority](https://sita.sr/tourism/).
 
 These are educational clues, not statements about current visitor access or site opening status.
+
+## Animal clues (2026-10-17)
+Replaced all 185 language clues with short animal associations. The other clues and original 12 countries' cultural associations are retained. Early Learners omits the first clue and shows the remaining four, including these animal hints. Animals need not be exclusive to a country. Protected, reintroduced, domestic and introduced populations are worded accordingly rather than presented as universally native.
+
+Selected conservation references used to review less familiar associations:
+- [Antiguan racer — Fauna & Flora](https://www.fauna-flora.org/species/antiguan-racer/)
+- [Popa langur — Fauna & Flora](https://www.fauna-flora.org/news/new-primate-species-discovered-myanmar-monkey-mystery-unravels/)
+- [Nauru reed-warbler — BirdLife](https://forums.birdlife.org/2023-2-nauru-reed-warbler-acrocephalus-rehsei/)
+- [Tuvalu frigatebird colony — SPREP](https://pacific-seabirds.sprep.org/index.php/colony/fuafatu)
+- [Vatican gardens fauna — Vatican News](https://www.vaticannews.va/cs/papez/news/2022-01/papezove-a-zvirata-bytosti-v-srdci-boha-a-cirkve.html)
