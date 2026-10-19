@@ -7,7 +7,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "npm run map:build && vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "test": "node --test src/game.test.js",
+    "test": "node --test src/game.test.js src/study.test.js",
     "map:build": "node scripts/build-map.mjs",
     "predev": "npm run map:build",
     "pretest": "npm run map:build"

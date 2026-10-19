@@ -2,8 +2,9 @@ import React,{useEffect,useId,useRef,useState} from 'react';
 import atlas from './data/map.json';
 const worldPath=atlas.world.join('');
 const WORLD=[-8,-55,976,610];
-export default function WorldMap({countryId,countryName}){
+export default function WorldMap({countryId,countryName,study=false}){
  const map=useRef(null),locator=useRef(null),worldId=useId();
+ const [worldView,setWorldView]=useState(false);
  const [replay,setReplay]=useState(0),[flying,setFlying]=useState(true);
  const target=atlas.targets[countryId];
  useEffect(()=>{
@@ -12,6 +13,7 @@ export default function WorldMap({countryId,countryName}){
   if(!svg||!target)return;
   const draw=box=>{svg.setAttribute('viewBox',box.join(' '));locator.current?.setAttribute('r',String(box[2]/95));};
   const finish=()=>{draw(target.view);setFlying(false);};
+  if(worldView){draw(WORLD);setFlying(false);return;}
   setFlying(true);draw(WORLD);
   const motion=window.matchMedia('(prefers-reduced-motion: reduce)');
   if(motion.matches){finish();return;}
@@ -28,10 +30,10 @@ export default function WorldMap({countryId,countryName}){
   const onMotion=()=>{if(motion.matches){cancelAnimationFrame(frame);finish();}};
   motion.addEventListener('change',onMotion);frame=requestAnimationFrame(tick);
   return()=>{cancelAnimationFrame(frame);motion.removeEventListener('change',onMotion);};
- },[countryId,replay,target]);
+ },[countryId,replay,target,worldView]);
  if(!target)return <p role="alert">This map could not load. Start a new trip in Clue Explorer mode.</p>;
  return <div className="map-panel">
-  <div className="map-status"><span role="status">{flying?(countryName?`Flying to ${countryName}…`:'Flying to your mystery country…'):(countryName?`We landed in ${countryName}!`:'Which country did we land in?')}</span><button className="text" onClick={()=>setReplay(n=>n+1)}>Replay flight</button></div>
+  <div className="map-status"><span role="status">{worldView?`World view · ${countryName}`:flying?(countryName?`Flying to ${countryName}…`:'Flying to your mystery country…'):(countryName?`We landed in ${countryName}!`:'Which country did we land in?')}</span><button className="text" onClick={()=>{setWorldView(false);setReplay(n=>n+1);}}>Replay flight</button>{study&&<button className="text" disabled={worldView} onClick={()=>setWorldView(true)}>Back to world</button>}</div>
   <svg ref={map} viewBox={WORLD.join(' ')} className="world-map" role="img" aria-label={countryName?`World border map. ${countryName} is highlighted in orange.`:"Unlabelled world border map. The mystery country’s border is highlighted in orange."}>
    <defs><path id={worldId} d={worldPath}/></defs>
    {[-960,0,960].map(offset=><g key={offset} transform={`translate(${offset} 0)`}><use href={`#${worldId}`} className="map-borders"/><path d={target.path} className="map-target"/></g>)}
