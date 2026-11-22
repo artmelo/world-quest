@@ -8,3 +8,11 @@
 
 [hidden]{display:none!important}
 .section-nav{display:flex;gap:10px;padding:22px 0}.section-nav button{border:1px solid #bac9be;background:white;border-radius:100px;padding:12px 22px;color:#183f3b;font-weight:700}.section-nav button[aria-pressed=true]{background:#183f3b;color:white}
+
+/* Approved antique atlas artwork and compass identity. */
+:root{background:#f4ecd8}
+body{min-height:100vh;background:linear-gradient(rgba(250,247,237,.52),rgba(250,247,237,.52)),url('/brand/antique-world-map.webp') center top / cover fixed}
+.brand .brand-compass{display:block;width:60px;height:60px;object-fit:contain;flex-shrink:0}
+.score:not(.active),.study-passport{background:#fbf8ee}
+.intro>p,.study-intro>p,footer{color:#334f46}
+@media(max-width:640px){body{background-attachment:scroll;background-size:auto 100vh;background-repeat:repeat-y}.brand .brand-compass{width:46px;height:46px}}
