@@ -1,0 +1,25 @@
+
+#world-quest-flag-deck{container-type:inline-size;width:100%;background:transparent;isolation:isolate}
+#world-quest-flag-deck .deck-stage{position:relative;width:100%;height:clamp(280px,59cqw,390px);overflow:hidden}
+#world-quest-flag-deck .flag-card{position:absolute;left:38%;top:31%;width:24%;height:clamp(150px,33cqw,230px);border-radius:clamp(20px,4cqw,34px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:clamp(16px,4cqw,30px);color:#173f3b;font-family:ui-rounded,'Avenir Next',system-ui,sans-serif;box-shadow:0 5px 1px #173f3b08,0 14px 24px -14px #173f3b38;transform-origin:50% 80%;animation:wq-deal 12s infinite;animation-delay:var(--delay);will-change:transform}
+#world-quest-flag-deck .seychelles{background:#e5edcd}
+#world-quest-flag-deck .namibia{background:#f8db76}
+#world-quest-flag-deck .canada{background:#f2c5b5}
+#world-quest-flag-deck .greece{background:#cce4ed}
+#world-quest-flag-deck .samoa{background:#dfd5eb}
+#world-quest-flag-deck .flag{font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif;font-size:clamp(42px,10cqw,76px);line-height:1.2;filter:drop-shadow(0 4px 2px #173f3b12)}
+#world-quest-flag-deck .country{font-size:clamp(12px,2.7cqw,20px);font-weight:750;letter-spacing:-.025em}
+@keyframes wq-deal{
+  0%,12%{transform:translate(140%,5%) rotate(9deg);z-index:1;animation-timing-function:cubic-bezier(.45,0,.2,1)}
+  20%,32%{transform:translate(70%,1%) rotate(4deg);z-index:2;animation-timing-function:cubic-bezier(.45,0,.2,1)}
+  40%,52%{transform:translate(0,0) rotate(-1deg);z-index:3;animation-timing-function:cubic-bezier(.45,0,.2,1)}
+  60%,72%{transform:translate(-70%,2%) rotate(-5deg);z-index:4;animation-timing-function:cubic-bezier(.45,0,.2,1)}
+  80%,83%{transform:translate(-140%,5%) rotate(-10deg);z-index:5;animation-timing-function:cubic-bezier(.3,0,.25,1)}
+  89%{transform:translate(-50%,-36%) rotate(-7deg) scale(1.04);z-index:6;animation-timing-function:cubic-bezier(.2,0,.2,1)}
+  95%{transform:translate(110%,-22%) rotate(12deg) scale(1.04);z-index:6;animation-timing-function:cubic-bezier(.25,.6,.3,1)}
+  99.9%{transform:translate(140%,5%) rotate(9deg);z-index:6}
+  100%{transform:translate(140%,5%) rotate(9deg);z-index:1}
+}
+@media(prefers-reduced-motion:reduce){#world-quest-flag-deck .flag-card{animation-play-state:paused}}
+
+.welcome-deck{position:relative;margin:8px 0 22px}.welcome-deck .deck-motion{display:block;margin:0 auto;border:0;background:transparent;color:var(--ink,#173f3b);font-size:11px;padding:8px 12px;text-decoration:underline;text-underline-offset:3px}.welcome-deck.is-paused .flag-card{animation-play-state:paused!important}#world-quest-flag-deck .deck-stage{height:clamp(240px,59cqw,330px)}#world-quest-flag-deck .flag-card{height:clamp(125px,33cqw,195px)}#world-quest-flag-deck .flag{font-size:clamp(32px,10cqw,65px)}#world-quest-flag-deck .country{font-size:clamp(10px,2.7cqw,17px)}@media(prefers-reduced-motion:reduce){.welcome-deck .deck-motion{display:none}}
